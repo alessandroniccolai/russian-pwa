@@ -248,31 +248,28 @@ window.VocabModule = (function() {
     return candidates[candidates.length - 1];
   }
 
-  function renderQuestion(item) {
-    const questionText = currentDirection === "it-ru" ? item.it : item.ru;
-    const promptText =
-      currentDirection === "it-ru" ? item.prompt.it : item.prompt.ru;
-    const answerText = currentDirection === "it-ru" ? item.ru : item.it;
+function renderQuestion(item) {
+  const questionText = currentDirection === "it-ru" ? item.it : item.ru;
+  const promptText =
+    currentDirection === "it-ru" ? item.prompt.it : item.prompt.ru;
+  const answerText = currentDirection === "it-ru" ? item.ru : item.it;
 
-    currentCorrectAnswer = answerText;
+  currentCorrectAnswer = answerText;
 
-    let html = "";
+  let html = "";
 
-    html += '<div class="question-main">' + escapeHtml(questionText) + "</div>";
+  html += '<div class="question-main">' + escapeHtml(questionText) + "</div>";
 
-    if (promptText && promptText.trim() !== "") {
-      html +=
-        '<div class="question-prompt">' + escapeHtml(promptText) + "</div>";
-    }
-
-    html += '<div class="meta">';
-    html += escapeHtml(item.type);
-    html += " · ";
-    html += escapeHtml(item.categories.join(", "));
-    html += "</div>";
-
-    questionArea.innerHTML = html;
+  html += '<div class="question-prompt">';
+  if (promptText && promptText.trim() !== "") {
+    html += escapeHtml(promptText);
+  } else {
+    html += "&nbsp;";
   }
+  html += "</div>";
+
+  questionArea.innerHTML = html;
+}
 
   function renderMultipleChoice(item, available) {
     const correct = currentDirection === "it-ru" ? item.ru : item.it;
@@ -398,14 +395,8 @@ window.VocabModule = (function() {
   }
 
   function isSimilarDistractor(candidate, item) {
-    const sharesCategory = candidate.categories.some(function(category) {
-      return item.categories.indexOf(category) !== -1;
-    });
-
-    const sharesType = candidate.type === item.type;
-
-    return sharesCategory || sharesType;
-  }
+  return candidate.type === item.type;
+}
 
   function renderWrittenAnswer() {
     answerArea.innerHTML =
@@ -443,28 +434,26 @@ window.VocabModule = (function() {
   }
 
   function processAnswer(isCorrect) {
-    updateAdaptiveStats(currentItem, isCorrect);
-    updateRecentIds(currentItem.id);
-    updateStatsDisplay();
+  updateAdaptiveStats(currentItem, isCorrect);
+  updateRecentIds(currentItem.id);
+  updateStatsDisplay();
 
-    if (isCorrect) {
-      feedbackArea.innerHTML =
-        '<div class="feedback correct">Corretto.</div>';
+  nextButton.classList.add("hidden");
 
-      nextButton.classList.add("hidden");
-
-      autoNextTimer = setTimeout(function() {
-        nextQuestion();
-      }, AUTO_NEXT_DELAY);
-    } else {
-      feedbackArea.innerHTML =
-        '<div class="feedback wrong">Sbagliato. Risposta corretta: ' +
-        escapeHtml(currentCorrectAnswer) +
-        "</div>";
-
-      nextButton.classList.remove("hidden");
-    }
+  if (isCorrect) {
+    feedbackArea.innerHTML =
+      '<div class="feedback correct">Corretto.</div>';
+  } else {
+    feedbackArea.innerHTML =
+      '<div class="feedback wrong">Sbagliato. Risposta corretta: ' +
+      escapeHtml(currentCorrectAnswer) +
+      "</div>";
   }
+
+  autoNextTimer = setTimeout(function() {
+    nextQuestion();
+  }, AUTO_NEXT_DELAY);
+}
 
   function clearAutoNextTimer() {
     if (autoNextTimer) {

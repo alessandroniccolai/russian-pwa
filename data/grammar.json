@@ -1,0 +1,267 @@
+{
+  "items": [
+    {
+      "id": "n0001",
+      "type": "noun",
+      "base": "день",
+      "italian": "giorno",
+      "category": "varie",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": "m"
+      },
+      "forms": {
+        "nom_sg": "день",
+        "gen_sg": "дня",
+        "dat_sg": "дню",
+        "acc_sg": "день",
+        "instr_sg": "днём",
+        "prep_sg": "дне",
+        "nom_pl": "дни",
+        "gen_pl": "дней",
+        "dat_pl": "дням",
+        "acc_pl": "дни",
+        "instr_pl": "днями",
+        "prep_pl": "днях"
+      }
+    },
+    {
+      "id": "n0002",
+      "type": "noun",
+      "base": "отец",
+      "italian": "padre",
+      "category": "famiglia",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": "m"
+      },
+      "forms": {
+        "nom_sg": "отец",
+        "gen_sg": "отца",
+        "dat_sg": "отцу",
+        "acc_sg": "отца",
+        "instr_sg": "отцом",
+        "prep_sg": "отце",
+        "nom_pl": "отцы",
+        "gen_pl": "отцов",
+        "dat_pl": "отцам",
+        "acc_pl": "отцов",
+        "instr_pl": "отцами",
+        "prep_pl": "отцах"
+      }
+    },
+    {
+      "id": "n0003",
+      "type": "noun",
+      "base": "семья",
+      "italian": "famiglia",
+      "category": "famiglia",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": "n"
+      },
+      "forms": {
+        "nom_sg": "семья",
+        "gen_sg": "семьи",
+        "dat_sg": "семье",
+        "acc_sg": "семью",
+        "instr_sg": "семьёй",
+        "prep_sg": "семье",
+        "nom_pl": "семьи",
+        "gen_pl": "семей",
+        "dat_pl": "семьям",
+        "acc_pl": "семьи",
+        "instr_pl": "семьями",
+        "prep_pl": "семьях"
+      }
+    },
+    {
+      "id": "n0004",
+      "type": "noun",
+      "base": "деньги",
+      "italian": "soldi",
+      "category": "varie",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": "m"
+      },
+      "forms": {
+        "nom_pl": "деньги",
+        "gen_pl": "денег",
+        "dat_pl": "деньгам",
+        "acc_pl": "деньги",
+        "instr_pl": "деньгами",
+        "prep_pl": "деньгах"
+      }
+    },
+    {
+      "id": "n0005",
+      "type": "noun",
+      "base": "мать",
+      "italian": "madre",
+      "category": "famiglia",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": "f"
+      },
+      "forms": {
+        "nom_sg": "мать",
+        "gen_sg": "матери",
+        "dat_sg": "матери",
+        "acc_sg": "мать",
+        "instr_sg": "матерью",
+        "prep_sg": "матери",
+        "nom_pl": "матери",
+        "gen_pl": "матерей",
+        "dat_pl": "матерям",
+        "acc_pl": "матерей",
+        "instr_pl": "матерями",
+        "prep_pl": "матерях"
+      }
+    },
+    {
+      "id": "n0006",
+      "type": "noun",
+      "base": "конец",
+      "italian": "fine",
+      "category": "varie",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": "m"
+      },
+      "forms": {
+        "nom_sg": "конец",
+        "gen_sg": "конца",
+        "dat_sg": "концу",
+        "acc_sg": "конец",
+        "instr_sg": "концом",
+        "prep_sg": "конце",
+        "nom_pl": "концы",
+        "gen_pl": "концов",
+        "dat_pl": "концам",
+        "acc_pl": "концы",
+        "instr_pl": "концами",
+        "prep_pl": "концах"
+      }
+    },
+    {
+      "id": "n0007",
+      "type": "noun",
+      "base": "здоровье",
+      "italian": "salute",
+      "category": "varie",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": "n"
+      },
+      "forms": {
+        "nom_sg": "здоровье",
+        "gen_sg": "здоровья",
+        "dat_sg": "здоровью",
+        "acc_sg": "здоровье",
+        "instr_sg": "здоровьем",
+        "prep_sg": "здоровье",
+        "nom_pl": "здоровья",
+        "gen_pl": "здоровий",
+        "dat_pl": "здоровьям",
+        "acc_pl": "здоровья",
+        "instr_pl": "здоровьями",
+        "prep_pl": "здоровьях"
+      }
+    },
+    {
+      "id": "v0001",
+      "type": "verb",
+      "base": "идти",
+      "italian": "andare a piedi",
+      "category": "verbi di moto",
+      "active": true,
+      "note": "",
+      "extra": {
+        "aspect": "imperfettivo"
+      },
+      "forms": {
+        "present_1sg": "иду",
+        "present_2sg": "идёшь",
+        "present_3sg": "идёт",
+        "present_1pl": "идём",
+        "present_2pl": "идёте",
+        "present_3pl": "идут",
+        "past_m": "шёл",
+        "past_f": "шла",
+        "past_n": "шло",
+        "past_pl": "шли",
+        "imperative_sg": "иди",
+        "imperative_pl": "идите"
+      }
+    },
+    {
+      "id": "v0002",
+      "type": "verb",
+      "base": "ехать",
+      "italian": "andare con mezzo",
+      "category": "verbi di moto",
+      "active": true,
+      "note": "",
+      "extra": {
+        "aspect": "imperfettivo"
+      },
+      "forms": {
+        "present_1sg": "еду",
+        "present_2sg": "едешь",
+        "present_3sg": "едет",
+        "present_1pl": "едем",
+        "present_2pl": "едете",
+        "present_3pl": "едут",
+        "past_m": "ехал",
+        "past_f": "ехала",
+        "past_n": "ехало",
+        "past_pl": "ехали"
+      }
+    }
+  ],
+  "formLabels": {
+    "nom_sg": "nominativo singolare",
+    "gen_sg": "genitivo singolare",
+    "dat_sg": "dativo singolare",
+    "acc_sg": "accusativo singolare",
+    "instr_sg": "strumentale singolare",
+    "prep_sg": "prepositivo singolare",
+    "nom_pl": "nominativo plurale",
+    "gen_pl": "genitivo plurale",
+    "dat_pl": "dativo plurale",
+    "acc_pl": "accusativo plurale",
+    "instr_pl": "strumentale plurale",
+    "prep_pl": "prepositivo plurale",
+    "present_1sg": "presente, 1ª singolare",
+    "present_2sg": "presente, 2ª singolare",
+    "present_3sg": "presente, 3ª singolare",
+    "present_1pl": "presente, 1ª plurale",
+    "present_2pl": "presente, 2ª plurale",
+    "present_3pl": "presente, 3ª plurale",
+    "future_1sg": "futuro, 1ª singolare",
+    "future_2sg": "futuro, 2ª singolare",
+    "future_3sg": "futuro, 3ª singolare",
+    "future_1pl": "futuro, 1ª plurale",
+    "future_2pl": "futuro, 2ª plurale",
+    "future_3pl": "futuro, 3ª plurale",
+    "past_m": "passato maschile",
+    "past_f": "passato femminile",
+    "past_n": "passato neutro",
+    "past_pl": "passato plurale",
+    "imperative_sg": "imperativo singolare",
+    "imperative_pl": "imperativo plurale"
+  },
+  "typeLabels": {
+    "noun": "sostantivo",
+    "verb": "verbo",
+    "adjective": "aggettivo"
+  }
+}
