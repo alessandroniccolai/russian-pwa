@@ -1,0 +1,2046 @@
+[
+  {
+    "id": "v0001",
+    "ru": "действие",
+    "it": "azione",
+    "type": "sostantivo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0002",
+    "ru": "записывать",
+    "it": "annotare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0003",
+    "ru": "записать",
+    "it": "annotare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0004",
+    "ru": "выполнять",
+    "it": "completare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0005",
+    "ru": "выполнить",
+    "it": "completare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0006",
+    "ru": "продолжать",
+    "it": "continuare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0007",
+    "ru": "продолжить",
+    "it": "continuare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0008",
+    "ru": "проверять",
+    "it": "controllare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0009",
+    "ru": "проверить",
+    "it": "controllare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0010",
+    "ru": "исправлять",
+    "it": "correggere",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0011",
+    "ru": "исправить",
+    "it": "correggere",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0012",
+    "ru": "доказывать",
+    "it": "dimostrare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0013",
+    "ru": "доказать",
+    "it": "dimostrare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0014",
+    "ru": "обсуждать",
+    "it": "discutere",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0015",
+    "ru": "обсудить",
+    "it": "discutere",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0016",
+    "ru": "заканчивать",
+    "it": "finire",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0017",
+    "ru": "закончить",
+    "it": "finire",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0018",
+    "ru": "оканчивать",
+    "it": "finire gli studi",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0019",
+    "ru": "окончить",
+    "it": "finire gli studi",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0020",
+    "ru": "начинать",
+    "it": "iniziare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0021",
+    "ru": "начать",
+    "it": "iniziare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0022",
+    "ru": "запоминать",
+    "it": "memorizzare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0023",
+    "ru": "запомнить",
+    "it": "memorizzare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0024",
+    "ru": "конспектировать",
+    "it": "prendere appunti",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0025",
+    "ru": "помнить",
+    "it": "ricordare",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0026",
+    "ru": "знать",
+    "it": "sapere",
+    "type": "verbo",
+    "categories": [
+      "azioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0027",
+    "ru": "весёлый",
+    "it": "allegro",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0028",
+    "ru": "внимательный",
+    "it": "attento",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0029",
+    "ru": "тихий",
+    "it": "calmo",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0030",
+    "ru": "смелый",
+    "it": "coraggioso",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0031",
+    "ru": "верный",
+    "it": "corretto",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0032",
+    "ru": "вежливый",
+    "it": "cortese",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0033",
+    "ru": "культурный",
+    "it": "culturale",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0034",
+    "ru": "слабый",
+    "it": "debole",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0035",
+    "ru": "решительный",
+    "it": "deciso",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0036",
+    "ru": "энергичный",
+    "it": "energetico",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0037",
+    "ru": "счастливый",
+    "it": "felice",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0038",
+    "ru": "сильный",
+    "it": "forte",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0039",
+    "ru": "приятный",
+    "it": "gentile",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0040",
+    "ru": "трудолюбивый",
+    "it": "lavoratore",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0041",
+    "ru": "скромный",
+    "it": "modesto",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0042",
+    "ru": "нервный",
+    "it": "nervoso",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0043",
+    "ru": "честный",
+    "it": "onesto",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0044",
+    "ru": "гостеприимный",
+    "it": "ospitale",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0045",
+    "ru": "грубый",
+    "it": "rozzo",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0046",
+    "ru": "несчастливый",
+    "it": "sfortunato",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0047",
+    "ru": "усталый",
+    "it": "stanco",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0048",
+    "ru": "спокойный",
+    "it": "tranquillo",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0049",
+    "ru": "грустный",
+    "it": "triste",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0050",
+    "ru": "легко",
+    "it": "facilmente",
+    "type": "avverbio",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0051",
+    "ru": "приятно",
+    "it": "gentilmente",
+    "type": "avverbio",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0052",
+    "ru": "скучно",
+    "it": "noioso",
+    "type": "avverbio",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0053",
+    "ru": "жаль",
+    "it": "peccato",
+    "type": "avverbio",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0054",
+    "ru": "легче",
+    "it": "più facile",
+    "type": "avverbio",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0055",
+    "ru": "стыдно",
+    "it": "vergognoso",
+    "type": "avverbio",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0056",
+    "ru": "дружба",
+    "it": "amicizia",
+    "type": "sostantivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0057",
+    "ru": "любовь",
+    "it": "amore",
+    "type": "sostantivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0058",
+    "ru": "характер",
+    "it": "carattere",
+    "type": "sostantivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0059",
+    "ru": "горе",
+    "it": "dolore",
+    "type": "sostantivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0060",
+    "ru": "счастье",
+    "it": "felicità",
+    "type": "sostantivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0061",
+    "ru": "радость",
+    "it": "gioia",
+    "type": "sostantivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0062",
+    "ru": "чувство",
+    "it": "sentimento",
+    "type": "sostantivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0063",
+    "ru": "несчастье",
+    "it": "sfortuna",
+    "type": "sostantivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0064",
+    "ru": "настроение",
+    "it": "umore",
+    "type": "sostantivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0065",
+    "ru": "любить",
+    "it": "amare",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0066",
+    "ru": "дружить",
+    "it": "essere amici",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0067",
+    "ru": "нравиться",
+    "it": "piacere",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0068",
+    "ru": "понравиться",
+    "it": "piacere",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0069",
+    "ru": "плакать",
+    "it": "piangere",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0070",
+    "ru": "волноваться",
+    "it": "preoccuparsi",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0071",
+    "ru": "радоваться",
+    "it": "rallegrarsi",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0072",
+    "ru": "обрадоваться",
+    "it": "rallegrarsi",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0073",
+    "ru": "смеяться",
+    "it": "ridere",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0074",
+    "ru": "чувствовать",
+    "it": "sentire",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "emozioni - imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0075",
+    "ru": "почувствовать",
+    "it": "sentire",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "emozioni - perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0076",
+    "ru": "улыбаться",
+    "it": "sorridere",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0077",
+    "ru": "улыбнуться",
+    "it": "sorridere",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0078",
+    "ru": "бояться",
+    "it": "temere",
+    "type": "verbo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0079",
+    "ru": "удобный",
+    "it": "comodo",
+    "type": "aggettivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0080",
+    "ru": "домашний",
+    "it": "domestico",
+    "type": "aggettivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0081",
+    "ru": "жилище",
+    "it": "abitazione",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0082",
+    "ru": "угол",
+    "it": "angolo",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0083",
+    "ru": "квартира",
+    "it": "appartamento",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0084",
+    "ru": "шкаф",
+    "it": "armadio",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0085",
+    "ru": "лифт",
+    "it": "ascensore",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0086",
+    "ru": "полотенце",
+    "it": "asciugamano",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0087",
+    "ru": "ванная",
+    "it": "bagno",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0088",
+    "ru": "балкон",
+    "it": "balcone",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0089",
+    "ru": "велосипед",
+    "it": "bicicletta",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0090",
+    "ru": "сумка",
+    "it": "borsa",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0091",
+    "ru": "календарь",
+    "it": "calendario",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0092",
+    "ru": "дом",
+    "it": "casa",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0093",
+    "ru": "ключ",
+    "it": "chiave",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0094",
+    "ru": "компьютер",
+    "it": "computer",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0095",
+    "ru": "корпус",
+    "it": "corpus",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0096",
+    "ru": "коридор",
+    "it": "corridoio",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0097",
+    "ru": "двор",
+    "it": "cortile",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0098",
+    "ru": "вещь",
+    "it": "cosa",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0099",
+    "ru": "кухня",
+    "it": "cucina",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0100",
+    "ru": "дача",
+    "it": "dacha",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0101",
+    "ru": "жильё",
+    "it": "dimora",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0102",
+    "ru": "диск",
+    "it": "disco",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0103",
+    "ru": "диван",
+    "it": "divano",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0104",
+    "ru": "душ",
+    "it": "doccia",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0105",
+    "ru": "здание",
+    "it": "edificio",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0106",
+    "ru": "вход",
+    "it": "entrata",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0107",
+    "ru": "спички",
+    "it": "fiammiferi",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0108",
+    "ru": "окно",
+    "it": "finestra",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0109",
+    "ru": "ксерокс",
+    "it": "fotocopia",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0110",
+    "ru": "холодильник",
+    "it": "frigorifero",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0111",
+    "ru": "игрушка",
+    "it": "giocattolo",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0112",
+    "ru": "лампа",
+    "it": "lampada",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0113",
+    "ru": "кровать",
+    "it": "letto",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0114",
+    "ru": "машина",
+    "it": "macchina",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0115",
+    "ru": "фотоаппарат",
+    "it": "macchina fotografica",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0116",
+    "ru": "кабинет",
+    "it": "mobile",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0117",
+    "ru": "зонт",
+    "it": "ombrello",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0118",
+    "ru": "часы",
+    "it": "orologio",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0119",
+    "ru": "стена",
+    "it": "parete",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0120",
+    "ru": "пол",
+    "it": "pavimento",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0121",
+    "ru": "этаж",
+    "it": "piano",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0122",
+    "ru": "кресло",
+    "it": "poltrona",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0123",
+    "ru": "дверь",
+    "it": "porta",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0124",
+    "ru": "картина",
+    "it": "quadro",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0125",
+    "ru": "радио",
+    "it": "radio",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0126",
+    "ru": "зал",
+    "it": "sala",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0127",
+    "ru": "мыло",
+    "it": "sapone",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0128",
+    "ru": "полка",
+    "it": "scaffale",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0129",
+    "ru": "лестница",
+    "it": "scala",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0130",
+    "ru": "стул",
+    "it": "sedia",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0131",
+    "ru": "сигарета",
+    "it": "sigaretta",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0132",
+    "ru": "потолок",
+    "it": "soffitto",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0133",
+    "ru": "сувенир",
+    "it": "souvenir",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0134",
+    "ru": "щётка",
+    "it": "spazzola",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0135",
+    "ru": "зеркало",
+    "it": "specchio",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0136",
+    "ru": "комната",
+    "it": "stanza",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0137",
+    "ru": "стол",
+    "it": "tavolo",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0138",
+    "ru": "телефон",
+    "it": "telefono",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0139",
+    "ru": "телевизор",
+    "it": "televisione",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0140",
+    "ru": "крыша",
+    "it": "tetto",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0141",
+    "ru": "мебель",
+    "it": "ufficio",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0142",
+    "ru": "выход",
+    "it": "uscita",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0143",
+    "ru": "чемодан",
+    "it": "valigia",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0144",
+    "ru": "ваза",
+    "it": "vaso",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0145",
+    "ru": "видео",
+    "it": "video",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0146",
+    "ru": "плеер",
+    "it": "walkman",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  }
+]

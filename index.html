@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Studio Russo</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="app-header">
+      <h1>Studio russo</h1>
+      <button id="homeButton" class="secondary-button hidden">Home</button>
+    </header>
+
+    <!-- HOME -->
+    <section id="homeView" class="view">
+      <div class="card">
+        <h2>Scegli modalità</h2>
+
+        <div class="mode-grid">
+          <button id="openVocabButton" class="mode-card">
+            <span class="mode-title">Vocabolario</span>
+            <span class="mode-subtitle">Associazione italiano/russo</span>
+          </button>
+
+          <button id="openGrammarButton" class="mode-card">
+            <span class="mode-title">Declinazione / coniugazione</span>
+            <span class="mode-subtitle">Modulo grammatica</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- VOCABOLARIO -->
+    <section id="vocabView" class="view hidden">
+      <section class="panel">
+        <button id="toggleOptionsButton" class="secondary-button">
+          Nascondi opzioni
+        </button>
+
+        <div id="optionsPanel" class="options-panel">
+          <div class="control-group">
+            <label for="directionSelect">Direzione</label>
+            <select id="directionSelect">
+              <option value="it-ru">Italiano → Russo</option>
+              <option value="ru-it">Russo → Italiano</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label for="modeSelect">Modalità</label>
+            <select id="modeSelect">
+              <option value="multiple">Scelta multipla</option>
+              <option value="written">Risposta scritta</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label for="categorySelect">Categoria</label>
+            <select id="categorySelect">
+              <option value="all">Tutte</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label for="typeSelect">Tipo</label>
+            <select id="typeSelect">
+              <option value="all">Tutti</option>
+            </select>
+          </div>
+
+          <button id="startButton">Inizia / aggiorna filtro</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <div id="questionArea">
+          <p class="placeholder">Caricamento vocaboli...</p>
+        </div>
+
+        <div id="answerArea"></div>
+
+        <div id="feedbackArea"></div>
+
+        <button id="nextButton" class="hidden">Prossima parola</button>
+      </section>
+
+      <section class="stats">
+        <h2>Statistiche sessione</h2>
+
+        <div class="stats-grid">
+          <div>
+            <span class="stat-label">Risposte</span>
+            <span id="totalStat">0</span>
+          </div>
+          <div>
+            <span class="stat-label">Corrette</span>
+            <span id="correctStat">0</span>
+          </div>
+          <div>
+            <span class="stat-label">Errori</span>
+            <span id="wrongStat">0</span>
+          </div>
+          <div>
+            <span class="stat-label">Accuratezza</span>
+            <span id="accuracyStat">0%</span>
+          </div>
+        </div>
+
+        <h3>Parole più sbagliate</h3>
+        <ol id="wrongList"></ol>
+      </section>
+    </section>
+
+    <!-- GRAMMATICA -->
+    <section id="grammarView" class="view hidden">
+      <div class="card">
+        <h2>Declinazione / coniugazione</h2>
+        <p class="placeholder">
+          Modulo grammatica non ancora implementato.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/vocab.js"></script>
+  <script src="js/grammar.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
