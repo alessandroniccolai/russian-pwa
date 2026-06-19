@@ -177,6 +177,353 @@
       }
     },
     {
+      "id": "n0008",
+      "type": "noun",
+      "base": "два",
+      "italian": "due",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_pl": "два",
+        "gen_pl": "двух",
+        "dat_pl": "двум",
+        "instr_pl": "двумя",
+        "prep_pl": "двух"
+      }
+    },
+    {
+      "id": "n0009",
+      "type": "noun",
+      "base": "три",
+      "italian": "tre",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_pl": "три",
+        "gen_pl": "трёх",
+        "dat_pl": "трём",
+        "instr_pl": "тремя",
+        "prep_pl": "трёх"
+      }
+    },
+    {
+      "id": "n0010",
+      "type": "noun",
+      "base": "четыре",
+      "italian": "quattro",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_pl": "четыре",
+        "gen_pl": "четырёх",
+        "dat_pl": "четырём",
+        "instr_pl": "четырьмя",
+        "prep_pl": "четырёх"
+      }
+    },
+    {
+      "id": "n0011",
+      "type": "noun",
+      "base": "пять",
+      "italian": "cinque",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_sg": "пять",
+        "gen_sg": "пяти",
+        "dat_sg": "пяти",
+        "acc_sg": "пять",
+        "instr_sg": "пятью",
+        "prep_sg": "пяти"
+      }
+    },
+    {
+      "id": "n0012",
+      "type": "noun",
+      "base": "восемь",
+      "italian": "sei",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_sg": "восемь",
+        "gen_sg": "восьми",
+        "dat_sg": "восьми",
+        "acc_sg": "восемь",
+        "instr_sg": "восьмью",
+        "prep_sg": "восьми"
+      }
+    },
+    {
+      "id": "n0013",
+      "type": "noun",
+      "base": "одиннадцать",
+      "italian": "undici",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_sg": "одиннадцать",
+        "gen_sg": "одиннадцати",
+        "dat_sg": "одиннадцати",
+        "acc_sg": "одиннадцать",
+        "instr_sg": "одиннадцатью",
+        "prep_sg": "одиннадцати"
+      }
+    },
+    {
+      "id": "n0014",
+      "type": "noun",
+      "base": "пятьдесят",
+      "italian": "cinquanta",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_sg": "пятьдесят",
+        "gen_sg": "пятидесяти",
+        "dat_sg": "пятидесяти",
+        "acc_sg": "пятьдесят",
+        "instr_sg": "ятьюдесятью",
+        "prep_sg": "пятидесяти"
+      }
+    },
+    {
+      "id": "n0015",
+      "type": "noun",
+      "base": "сорок",
+      "italian": "quaranta",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_sg": "сорок",
+        "gen_sg": "сорока",
+        "dat_sg": "сорока",
+        "acc_sg": "сорок",
+        "instr_sg": "сорока",
+        "prep_sg": "сорока"
+      }
+    },
+    {
+      "id": "n0016",
+      "type": "noun",
+      "base": "девяносто",
+      "italian": "novanta",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_sg": "девяносто",
+        "gen_sg": "девяноста",
+        "dat_sg": "девяноста",
+        "acc_sg": "девяносто",
+        "instr_sg": "девяноста",
+        "prep_sg": "девяноста"
+      }
+    },
+    {
+      "id": "n0017",
+      "type": "noun",
+      "base": "сто",
+      "italian": "cento",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_sg": "сто",
+        "gen_sg": "ста",
+        "dat_sg": "ста",
+        "acc_sg": "сто",
+        "instr_sg": "ста",
+        "prep_sg": "ста"
+      }
+    },
+    {
+      "id": "n0018",
+      "type": "noun",
+      "base": "двести",
+      "italian": "duecento",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_pl": "двести",
+        "gen_pl": "двухсот",
+        "dat_pl": "двумста",
+        "acc_pl": "двести",
+        "instr_pl": "двумястам",
+        "prep_pl": "двухста"
+      }
+    },
+    {
+      "id": "n0019",
+      "type": "noun",
+      "base": "триста",
+      "italian": "trecento",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_pl": "триста",
+        "gen_pl": "трёхсот",
+        "dat_pl": "трёмстам",
+        "acc_pl": "триста",
+        "instr_pl": "тремястами",
+        "prep_pl": "трёхстах"
+      }
+    },
+    {
+      "id": "n0020",
+      "type": "noun",
+      "base": "четыреста",
+      "italian": "quattrocento",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_pl": "четыреста",
+        "gen_pl": "четырёхсот",
+        "dat_pl": "четырёмстам",
+        "acc_pl": "четыреста",
+        "instr_pl": "четырьмястами",
+        "prep_pl": "четырёхстах"
+      }
+    },
+    {
+      "id": "n0021",
+      "type": "noun",
+      "base": "пятьсот",
+      "italian": "cinquecento",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_pl": "пятьсот",
+        "gen_pl": "пятисот",
+        "dat_pl": "пятистам",
+        "instr_pl": "пятьюстами",
+        "prep_pl": "пятистах"
+      }
+    },
+    {
+      "id": "n0022",
+      "type": "noun",
+      "base": "шестьсот",
+      "italian": "seicento",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_pl": "шестьсот",
+        "gen_pl": "шестисот",
+        "dat_pl": "шестистам",
+        "instr_pl": "шестьюстами",
+        "prep_pl": "шестистах"
+      }
+    },
+    {
+      "id": "n0023",
+      "type": "noun",
+      "base": "тысяча",
+      "italian": "mille",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_sg": "тысяча",
+        "gen_sg": "тысячи",
+        "dat_sg": "тысячe",
+        "acc_sg": "тысячу",
+        "instr_sg": "тысячей",
+        "prep_sg": "тысяче",
+        "nom_pl": "тысячи",
+        "gen_pl": "тысяч",
+        "dat_pl": "тысячам",
+        "acc_pl": "тысячи",
+        "instr_pl": "тысячами",
+        "prep_pl": "тысячах"
+      }
+    },
+    {
+      "id": "n0024",
+      "type": "noun",
+      "base": "миллион",
+      "italian": "milione",
+      "category": "numeri",
+      "active": true,
+      "note": "",
+      "extra": {
+        "gender": ""
+      },
+      "forms": {
+        "nom_sg": "миллион",
+        "gen_sg": "миллиона",
+        "dat_sg": "миллиону",
+        "acc_sg": "миллион",
+        "instr_sg": "миллионом",
+        "prep_sg": "миллионе",
+        "nom_pl": "миллионы",
+        "gen_pl": "миллионов",
+        "dat_pl": "миллионам",
+        "acc_pl": "миллионы",
+        "instr_pl": "миллионами",
+        "prep_pl": "миллионах"
+      }
+    },
+    {
       "id": "v0001",
       "type": "verb",
       "base": "идти",
@@ -185,7 +532,7 @@
       "active": true,
       "note": "",
       "extra": {
-        "aspect": "imperfettivo"
+        "aspect": "unidirezionale"
       },
       "forms": {
         "present_1sg": "иду",
@@ -211,7 +558,7 @@
       "active": true,
       "note": "",
       "extra": {
-        "aspect": "imperfettivo"
+        "aspect": "unidirezionale"
       },
       "forms": {
         "present_1sg": "еду",
@@ -224,6 +571,228 @@
         "past_f": "ехала",
         "past_n": "ехало",
         "past_pl": "ехали"
+      }
+    },
+    {
+      "id": "v0003",
+      "type": "verb",
+      "base": "Нести",
+      "italian": "portare a mano",
+      "category": "verbi di moto",
+      "active": true,
+      "note": "",
+      "extra": {
+        "aspect": "unidirezionale"
+      },
+      "forms": {
+        "present_1sg": "несу",
+        "present_2sg": "несёшь",
+        "present_3sg": "несёт",
+        "present_1pl": "несём",
+        "present_2pl": "несёте",
+        "present_3pl": "несут",
+        "past_m": "нёс",
+        "past_f": "несла",
+        "past_pl": "несли",
+        "imperative_sg": "неси",
+        "imperative_pl": "несите"
+      }
+    },
+    {
+      "id": "v0004",
+      "type": "verb",
+      "base": "Носить",
+      "italian": "portare a mano",
+      "category": "verbi di moto",
+      "active": true,
+      "note": "",
+      "extra": {
+        "aspect": "pluridirezionale"
+      },
+      "forms": {
+        "present_1sg": "ношу",
+        "present_2sg": "носишь",
+        "present_3sg": "носит",
+        "present_1pl": "носим",
+        "present_2pl": "носите",
+        "present_3pl": "носят",
+        "past_m": "носил",
+        "past_f": "носила",
+        "past_pl": "носили",
+        "imperative_sg": "неси",
+        "imperative_pl": "несите"
+      }
+    },
+    {
+      "id": "v0005",
+      "type": "verb",
+      "base": "Вести",
+      "italian": "portare a piedi",
+      "category": "verbi di moto",
+      "active": true,
+      "note": "",
+      "extra": {
+        "aspect": "unidirezionale"
+      },
+      "forms": {
+        "present_1sg": "веду",
+        "present_2sg": "ведёшь",
+        "present_3sg": "ведёт",
+        "present_1pl": "ведём",
+        "present_2pl": "ведёте",
+        "present_3pl": "ведут",
+        "past_m": "вёл",
+        "past_f": "вела",
+        "past_pl": "вели",
+        "imperative_sg": "веди"
+      }
+    },
+    {
+      "id": "v0006",
+      "type": "verb",
+      "base": "Водить",
+      "italian": "portare a piedi",
+      "category": "verbi di moto",
+      "active": true,
+      "note": "",
+      "extra": {
+        "aspect": "pluridirezionale"
+      },
+      "forms": {
+        "present_1sg": "вожу",
+        "present_2sg": "водишь",
+        "present_3sg": "водит",
+        "present_1pl": "водим",
+        "present_2pl": "водите",
+        "present_3pl": "водят",
+        "past_m": "водил",
+        "past_f": "водила",
+        "past_pl": "водили",
+        "imperative_sg": "води"
+      }
+    },
+    {
+      "id": "v0007",
+      "type": "verb",
+      "base": "Везти",
+      "italian": "portare con un mezzo",
+      "category": "verbi di moto",
+      "active": true,
+      "note": "",
+      "extra": {
+        "aspect": "unidirezionale"
+      },
+      "forms": {
+        "present_1sg": "везу",
+        "present_2sg": "везёшь",
+        "present_3sg": "везёт",
+        "present_1pl": "везём",
+        "present_2pl": "везёте",
+        "present_3pl": "везут",
+        "past_m": "вёз",
+        "past_f": "везла",
+        "past_pl": "везли",
+        "imperative_sg": "вези"
+      }
+    },
+    {
+      "id": "v0008",
+      "type": "verb",
+      "base": "Возить",
+      "italian": "portare con un mezzo",
+      "category": "verbi di moto",
+      "active": true,
+      "note": "",
+      "extra": {
+        "aspect": "pluridirezionale"
+      },
+      "forms": {
+        "present_1sg": "вожу",
+        "present_2sg": "возишь",
+        "present_3sg": "возит",
+        "present_1pl": "возим",
+        "present_2pl": "возите",
+        "present_3pl": "возят",
+        "past_m": "возил",
+        "past_f": "возила",
+        "past_pl": "возили",
+        "imperative_sg": "вози"
+      }
+    },
+    {
+      "id": "v0009",
+      "type": "verb",
+      "base": "Подниматься",
+      "italian": "salire",
+      "category": "verbi di moto",
+      "active": true,
+      "note": "",
+      "extra": {
+        "aspect": "imperfettivo"
+      },
+      "forms": {
+        "present_1sg": "поднимáюсь",
+        "present_2sg": "поднимáешься",
+        "present_3pl": "поднимáются",
+        "imperative_sg": "поднимáйся",
+        "imperative_pl": "поднимáйтесь"
+      }
+    },
+    {
+      "id": "v0010",
+      "type": "verb",
+      "base": "Подниматься",
+      "italian": "salire",
+      "category": "verbi di moto",
+      "active": true,
+      "note": "",
+      "extra": {
+        "aspect": "perfettivo"
+      },
+      "forms": {
+        "present_1sg": "подниму́сь",
+        "present_2sg": "подни́мешься",
+        "present_3pl": "подни́мутся",
+        "imperative_sg": "подними́сь",
+        "imperative_pl": "подними́тесь"
+      }
+    },
+    {
+      "id": "v0011",
+      "type": "verb",
+      "base": "Спускаться",
+      "italian": "scendere",
+      "category": "verbi di moto",
+      "active": true,
+      "note": "",
+      "extra": {
+        "aspect": "imperfettivo"
+      },
+      "forms": {
+        "present_1sg": "спуска́юсь",
+        "present_2sg": "спуска́ешься",
+        "present_3pl": "спуска́ются",
+        "imperative_sg": "спуска́йся",
+        "imperative_pl": "спуска́йтесь"
+      }
+    },
+    {
+      "id": "v0012",
+      "type": "verb",
+      "base": "Спуститься",
+      "italian": "scendere",
+      "category": "verbi di moto",
+      "active": true,
+      "note": "",
+      "extra": {
+        "aspect": "perfettivo"
+      },
+      "forms": {
+        "present_1sg": "спущу́сь",
+        "present_2sg": "спу́стишься",
+        "present_3pl": "спу́стятся",
+        "imperative_sg": "спусти́сь",
+        "imperative_pl": "спуститесь"
       }
     }
   ],

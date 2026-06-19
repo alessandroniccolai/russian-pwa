@@ -7,9 +7,16 @@ window.VocabModule = (function() {
   let initialized = false;
   let optionsOpen = true;
   let autoNextTimer = null;
+  
 
-  const RECENT_LIMIT = 5;
-  const AUTO_NEXT_DELAY = 1000;
+  const RECENT_LIMIT = 8;
+  const AUTO_NEXT_CORRECT_DELAY = 1000;
+  const AUTO_NEXT_WRONG_MULTIPLE_DELAY = 2000;
+  const MAX_WEIGHT = 16;
+  const MIN_WEIGHT = 0.1;
+  const WEIGHT_DECAY = 0.5;
+  const WEIGHT_GAIN = 2;
+  const N_WRONG = 10;
 
   const session = {
     category: "all",
@@ -40,6 +47,7 @@ window.VocabModule = (function() {
   const accuracyStat = document.getElementById("accuracyStat");
   const wrongList = document.getElementById("wrongList");
 
+
   function start() {
     if (initialized) {
       return;
@@ -51,6 +59,7 @@ window.VocabModule = (function() {
   }
 
   function bindEvents() {
+
     startButton.addEventListener("click", function() {
       updateSettingsFromControls();
       closeOptions();
@@ -66,8 +75,9 @@ window.VocabModule = (function() {
     });
   }
 
+
   function loadVocab() {
-    fetch("data/vocab.json")
+    fetch("data/vocab.json?nocache=" + Date.now())
       .then(function(response) {
         if (!response.ok) {
           throw new Error("Errore nel caricamento di data/vocab.json");
@@ -434,26 +444,38 @@ function renderQuestion(item) {
   }
 
   function processAnswer(isCorrect) {
-  updateAdaptiveStats(currentItem, isCorrect);
-  updateRecentIds(currentItem.id);
-  updateStatsDisplay();
+    updateAdaptiveStats(currentItem, isCorrect);
+    updateRecentIds(currentItem.id);
+    updateStatsDisplay();
 
-  nextButton.classList.add("hidden");
+    clearAutoNextTimer();
+    nextButton.classList.add("hidden");
 
-  if (isCorrect) {
-    feedbackArea.innerHTML =
-      '<div class="feedback correct">Corretto.</div>';
-  } else {
+    if (isCorrect) {
+      feedbackArea.innerHTML =
+        '<div class="feedback correct">Corretto.</div>';
+
+      autoNextTimer = setTimeout(function() {
+        nextQuestion();
+      }, AUTO_NEXT_CORRECT_DELAY);
+
+      return;
+    }
+
     feedbackArea.innerHTML =
       '<div class="feedback wrong">Sbagliato. Risposta corretta: ' +
       escapeHtml(currentCorrectAnswer) +
       "</div>";
-  }
 
-  autoNextTimer = setTimeout(function() {
-    nextQuestion();
-  }, AUTO_NEXT_DELAY);
-}
+    if (currentMode === "written") {
+      nextButton.classList.remove("hidden");
+      return;
+    }
+
+    autoNextTimer = setTimeout(function() {
+      nextQuestion();
+    }, AUTO_NEXT_WRONG_MULTIPLE_DELAY);
+  }
 
   function clearAutoNextTimer() {
     if (autoNextTimer) {
@@ -470,11 +492,11 @@ function renderQuestion(item) {
 
     if (isCorrect) {
       stat.correct += 1;
-      stat.weight = Math.max(0.25, stat.weight * 0.6);
+      stat.weight = Math.max(MIN_WEIGHT, stat.weight * WEIGHT_DECAY);
       session.correct += 1;
     } else {
       stat.wrong += 1;
-      stat.weight = Math.min(6.0, stat.weight * 2.0);
+      stat.weight = Math.min(MAX_WEIGHT, stat.weight * WEIGHT_GAIN);
       session.wrong += 1;
     }
 
@@ -520,7 +542,7 @@ function renderQuestion(item) {
       .sort(function(a, b) {
         return b.wrong - a.wrong;
       })
-      .slice(0, 5);
+      .slice(0, N_WRONG);
 
     wrongList.innerHTML = "";
 

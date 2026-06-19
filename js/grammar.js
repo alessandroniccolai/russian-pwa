@@ -5,9 +5,10 @@ window.GrammarModule = (function() {
   let optionsOpen = true;
   let autoNextTimer = null;
 
-  const RECENT_LIMIT = 8;
+  const RECENT_LIMIT = 10;
   const AUTO_NEXT_DELAY = 1000;
   const MAX_PICK_ATTEMPTS = 80;
+  const N_WRONG = 10;
 
   const session = {
     type: "all",
@@ -25,7 +26,6 @@ window.GrammarModule = (function() {
   function start() {
     if (!initialized) {
       initialized = true;
-      renderLayout();
       bindEvents();
       loadGrammar();
       return;
@@ -34,86 +34,10 @@ window.GrammarModule = (function() {
     renderStartMessage();
   }
 
-  function renderLayout() {
-    grammarView.innerHTML =
-      '<section class="panel">' +
-        '<button id="grammarToggleOptionsButton" class="secondary-button">' +
-          'Nascondi opzioni' +
-        '</button>' +
-
-        '<div id="grammarOptionsPanel" class="options-panel">' +
-          '<div class="control-group">' +
-            '<label for="grammarTypeSelect">Tipo</label>' +
-            '<select id="grammarTypeSelect">' +
-              '<option value="all">Tutti</option>' +
-              '<option value="noun">Sostantivi</option>' +
-              '<option value="verb">Verbi</option>' +
-              '<option value="adjective">Aggettivi</option>' +
-            '</select>' +
-          '</div>' +
-
-          '<div class="control-group">' +
-            '<label for="grammarCategorySelect">Categoria</label>' +
-            '<select id="grammarCategorySelect">' +
-              '<option value="all">Tutte</option>' +
-            '</select>' +
-          '</div>' +
-
-          '<div class="control-group">' +
-            '<label for="grammarDirectionSelect">Direzione</label>' +
-            '<select id="grammarDirectionSelect">' +
-              '<option value="base_to_form">Forma base → forma variata</option>' +
-              '<option value="form_to_base">Forma variata → forma base</option>' +
-            '</select>' +
-          '</div>' +
-
-          '<button id="grammarStartButton">Inizia / aggiorna filtro</button>' +
-        '</div>' +
-      '</section>' +
-
-      '<section class="card">' +
-        '<div id="grammarQuestionArea">' +
-          '<p class="placeholder">Caricamento grammatica...</p>' +
-        '</div>' +
-
-        '<div id="grammarAnswerArea"></div>' +
-
-        '<div id="grammarFeedbackArea"></div>' +
-      '</section>' +
-
-      '<section class="stats">' +
-        '<h2>Statistiche sessione</h2>' +
-
-        '<div class="stats-grid">' +
-          '<div>' +
-            '<span class="stat-label">Risposte</span>' +
-            '<span id="grammarTotalStat">0</span>' +
-          '</div>' +
-
-          '<div>' +
-            '<span class="stat-label">Corrette</span>' +
-            '<span id="grammarCorrectStat">0</span>' +
-          '</div>' +
-
-          '<div>' +
-            '<span class="stat-label">Errori</span>' +
-            '<span id="grammarWrongStat">0</span>' +
-          '</div>' +
-
-          '<div>' +
-            '<span class="stat-label">Accuratezza</span>' +
-            '<span id="grammarAccuracyStat">0%</span>' +
-          '</div>' +
-        '</div>' +
-
-        '<h3>Forme più sbagliate</h3>' +
-        '<ol id="grammarWrongList"></ol>' +
-      '</section>';
-  }
-
   function bindEvents() {
     const startButton = document.getElementById("grammarStartButton");
     const toggleOptionsButton = document.getElementById("grammarToggleOptionsButton");
+    const nextButton = document.getElementById("grammarNextButton");
 
     startButton.addEventListener("click", function() {
       updateSettingsFromControls();
@@ -124,10 +48,14 @@ window.GrammarModule = (function() {
     toggleOptionsButton.addEventListener("click", function() {
       toggleOptions();
     });
+
+    nextButton.addEventListener("click", function() {
+      nextQuestion();
+    });
   }
 
   function loadGrammar() {
-    fetch("data/grammar.json")
+    fetch("data/grammar.json?nocache=" + Date.now())
       .then(function(response) {
         if (!response.ok) {
           throw new Error("Errore nel caricamento di data/grammar.json");
@@ -207,6 +135,7 @@ window.GrammarModule = (function() {
     const questionArea = document.getElementById("grammarQuestionArea");
     const answerArea = document.getElementById("grammarAnswerArea");
     const feedbackArea = document.getElementById("grammarFeedbackArea");
+    const nextButton = document.getElementById("grammarNextButton");
 
     clearAutoNextTimer();
 
@@ -215,6 +144,7 @@ window.GrammarModule = (function() {
 
     answerArea.innerHTML = "";
     feedbackArea.innerHTML = "";
+    nextButton.classList.add("hidden");
   }
 
   function toggleOptions() {
@@ -277,12 +207,17 @@ window.GrammarModule = (function() {
       const questionArea = document.getElementById("grammarQuestionArea");
       const answerArea = document.getElementById("grammarAnswerArea");
       const feedbackArea = document.getElementById("grammarFeedbackArea");
+      const nextButton = document.getElementById("grammarNextButton");
+      nextButton.classList.add("hidden");
 
       questionArea.innerHTML =
         '<p class="placeholder">Nessuna forma disponibile con questi filtri.</p>';
 
       answerArea.innerHTML = "";
       feedbackArea.innerHTML = "";
+
+      
+
       return;
     }
 
@@ -302,6 +237,9 @@ window.GrammarModule = (function() {
 
     const feedbackArea = document.getElementById("grammarFeedbackArea");
     feedbackArea.innerHTML = "";
+
+    const nextButton = document.getElementById("grammarNextButton");
+    nextButton.classList.add("hidden");
   }
 
   function chooseRandomExercise(items) {
@@ -444,20 +382,27 @@ window.GrammarModule = (function() {
     updateStatsDisplay();
 
     const feedbackArea = document.getElementById("grammarFeedbackArea");
+    const nextButton = document.getElementById("grammarNextButton");
+
+    nextButton.classList.add("hidden");
 
     if (isCorrect) {
       feedbackArea.innerHTML =
         '<div class="feedback correct">Corretto.</div>';
-    } else {
-      feedbackArea.innerHTML =
-        '<div class="feedback wrong">Sbagliato. Risposta corretta: ' +
-        escapeHtml(currentExercise.answer) +
-        '</div>';
+
+      autoNextTimer = setTimeout(function() {
+        nextQuestion();
+      }, AUTO_NEXT_DELAY);
+
+      return;
     }
 
-    autoNextTimer = setTimeout(function() {
-      nextQuestion();
-    }, AUTO_NEXT_DELAY);
+    feedbackArea.innerHTML =
+      '<div class="feedback wrong">Sbagliato. Risposta corretta: ' +
+      escapeHtml(currentExercise.answer) +
+      '</div>';
+
+    nextButton.classList.remove("hidden");
   }
 
   function updateStats(exercise, isCorrect) {
@@ -530,7 +475,7 @@ window.GrammarModule = (function() {
       .sort(function(a, b) {
         return b.stat.wrong - a.stat.wrong;
       })
-      .slice(0, 5);
+      .slice(0, N_WRONG);
 
     wrongList.innerHTML = "";
 

@@ -110,13 +110,90 @@
           </div>
         </div>
 
-        <h3>Parole più sbagliate</h3>
-        <ol id="wrongList"></ol>
+        <details class="wrong-list-panel">
+          <summary>Parole più sbagliate</summary>
+          <ol id="wrongList"></ol>
+        </details>
       </section>
     </section>
 
     <!-- GRAMMATICA -->
-    <section id="grammarView" class="view hidden"></section>
+    <section id="grammarView" class="view hidden">
+      <section class="panel">
+        <button id="grammarToggleOptionsButton" class="secondary-button">
+          Nascondi opzioni
+        </button>
+
+        <div id="grammarOptionsPanel" class="options-panel">
+          <div class="control-group">
+            <label for="grammarTypeSelect">Tipo</label>
+            <select id="grammarTypeSelect">
+              <option value="all">Tutti</option>
+              <option value="noun">Sostantivi</option>
+              <option value="verb">Verbi</option>
+              <option value="adjective">Aggettivi</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label for="grammarCategorySelect">Categoria</label>
+            <select id="grammarCategorySelect">
+              <option value="all">Tutte</option>
+            </select>
+          </div>
+
+          <div class="control-group">
+            <label for="grammarDirectionSelect">Direzione</label>
+            <select id="grammarDirectionSelect">
+              <option value="base_to_form">Forma base → forma variata</option>
+              <option value="form_to_base">Forma variata → forma base</option>
+            </select>
+          </div>
+
+          <button id="grammarStartButton">Inizia / aggiorna filtro</button>
+        </div>
+      </section>
+
+      <section class="card">
+        <div id="grammarQuestionArea">
+          <p class="placeholder">Caricamento grammatica...</p>
+        </div>
+
+        <div id="grammarAnswerArea"></div>
+
+        <div id="grammarFeedbackArea"></div>
+
+        <button id="grammarNextButton" class="hidden">Prossima forma</button>
+      </section>
+
+      <section class="stats">
+        <h2>Statistiche sessione</h2>
+
+        <div class="stats-grid">
+          <div>
+            <span class="stat-label">Risposte</span>
+            <span id="grammarTotalStat">0</span>
+          </div>
+          <div>
+            <span class="stat-label">Corrette</span>
+            <span id="grammarCorrectStat">0</span>
+          </div>
+          <div>
+            <span class="stat-label">Errori</span>
+            <span id="grammarWrongStat">0</span>
+          </div>
+          <div>
+            <span class="stat-label">Accuratezza</span>
+            <span id="grammarAccuracyStat">0%</span>
+          </div>
+        </div>
+
+        <details class="wrong-list-panel">
+          <summary>Forme più sbagliate</summary>
+          <ol id="grammarWrongList"></ol>
+        </details>
+      </section>
+    </section>
   </main>
 
   <script src="js/vocab.js"></script>

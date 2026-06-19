@@ -370,3 +370,21 @@ button:disabled {
 #grammarWrongList li {
   margin-bottom: 6px;
 }
+
+.wrong-list-panel {
+  margin-top: 14px;
+}
+
+.wrong-list-panel summary {
+  cursor: pointer;
+  font-weight: 600;
+  padding: 8px 0;
+}
+
+.wrong-list-panel ol {
+  margin-top: 8px;
+}
+
+#grammarNextButton {
+  margin-top: 14px;
+}

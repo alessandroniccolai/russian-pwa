@@ -548,7 +548,7 @@
   {
     "id": "v0040",
     "ru": "трудолюбивый",
-    "it": "lavoratore",
+    "it": "lavoratore instancabile",
     "type": "aggettivo",
     "categories": [
       "carattere ed emozioni"
@@ -1612,13 +1612,13 @@
   {
     "id": "v0116",
     "ru": "кабинет",
-    "it": "mobile",
+    "it": "studio",
     "type": "sostantivo",
     "categories": [
       "casa"
     ],
     "prompt": {
-      "it": "",
+      "it": "stanza",
       "ru": ""
     },
     "active": true
@@ -1962,7 +1962,7 @@
   {
     "id": "v0141",
     "ru": "мебель",
-    "it": "ufficio",
+    "it": "armadio",
     "type": "sostantivo",
     "categories": [
       "casa"
@@ -2036,6 +2036,8709 @@
     "type": "sostantivo",
     "categories": [
       "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0147",
+    "ru": "включать",
+    "it": "accendere",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0148",
+    "ru": "включить",
+    "it": "accendere",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0149",
+    "ru": "снимать",
+    "it": "affittare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0150",
+    "ru": "снять",
+    "it": "affittare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0151",
+    "ru": "вешать",
+    "it": "appendere",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0152",
+    "ru": "повесить",
+    "it": "appendere",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0153",
+    "ru": "слушать",
+    "it": "ascolatare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0154",
+    "ru": "послушать",
+    "it": "ascoltare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0155",
+    "ru": "менять",
+    "it": "cambiare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0156",
+    "ru": "поменять",
+    "it": "cambiare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0157",
+    "ru": "звонить",
+    "it": "chiamare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0158",
+    "ru": "позвонить",
+    "it": "chiamare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0159",
+    "ru": "закрывать",
+    "it": "chiudere",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0160",
+    "ru": "закрыть",
+    "it": "chiudere",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0161",
+    "ru": "беречь",
+    "it": "conservare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0162",
+    "ru": "сберечь",
+    "it": "conservare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0163",
+    "ru": "строить",
+    "it": "costruire",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0164",
+    "ru": "построить",
+    "it": "costruire",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0165",
+    "ru": "фотографировать",
+    "it": "fotografare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0166",
+    "ru": "сфотографировать",
+    "it": "fotografare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0167",
+    "ru": "курить",
+    "it": "fumare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0168",
+    "ru": "водить",
+    "it": "guidare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0169",
+    "ru": "мыть",
+    "it": "lavare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0170",
+    "ru": "вымыть",
+    "it": "lavare",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0171",
+    "ru": "терять",
+    "it": "perdere",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0172",
+    "ru": "потерять",
+    "it": "perdere",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0173",
+    "ru": "убирать",
+    "it": "ripulire",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0174",
+    "ru": "убрать",
+    "it": "ripulire",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0175",
+    "ru": "выключать",
+    "it": "spegnere",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0176",
+    "ru": "выключить",
+    "it": "spegnere",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0177",
+    "ru": "смотреть",
+    "it": "vedere",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0178",
+    "ru": "посмотреть",
+    "it": "vedere",
+    "type": "verbo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0179",
+    "ru": "кислый",
+    "it": "acido",
+    "type": "aggettivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0180",
+    "ru": "горький",
+    "it": "amaro",
+    "type": "aggettivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0181",
+    "ru": "горячий",
+    "it": "caldo",
+    "type": "aggettivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0182",
+    "ru": "сладкий",
+    "it": "dolce",
+    "type": "aggettivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "di cibo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0183",
+    "ru": "холодный",
+    "it": "freddo",
+    "type": "aggettivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0184",
+    "ru": "свежий",
+    "it": "fresco",
+    "type": "aggettivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0185",
+    "ru": "жареный",
+    "it": "fritto",
+    "type": "aggettivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0186",
+    "ru": "вкусный",
+    "it": "gustoso",
+    "type": "aggettivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0187",
+    "ru": "тёплый",
+    "it": "tiepido",
+    "type": "aggettivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0188",
+    "ru": "полезный",
+    "it": "utile",
+    "type": "aggettivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0189",
+    "ru": "полезно",
+    "it": "utilmente",
+    "type": "avverbio",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0190",
+    "ru": "вода",
+    "it": "acqua",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0191",
+    "ru": "продукты",
+    "it": "alimenti",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0192",
+    "ru": "аппетит",
+    "it": "appetito",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0193",
+    "ru": "апельсин",
+    "it": "arancia",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0194",
+    "ru": "ягода",
+    "it": "bacca",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0195",
+    "ru": "банан",
+    "it": "banana",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0196",
+    "ru": "кафе",
+    "it": "bar",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0197",
+    "ru": "стакан",
+    "it": "bicchiere",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0198",
+    "ru": "пиво",
+    "it": "birra",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0199",
+    "ru": "печенье",
+    "it": "biscotti",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0200",
+    "ru": "борщ",
+    "it": "borsch",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0201",
+    "ru": "бутылка",
+    "it": "bottiglia",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0202",
+    "ru": "буфет",
+    "it": "buffet",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0203",
+    "ru": "масло",
+    "it": "burro",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0204",
+    "ru": "кофе",
+    "it": "caffè",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0205",
+    "ru": "мясо",
+    "it": "carne",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0206",
+    "ru": "капуста",
+    "it": "cavolo",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0207",
+    "ru": "ужин",
+    "it": "cena",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0208",
+    "ru": "огурец",
+    "it": "cetriolo",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0209",
+    "ru": "еда",
+    "it": "cibo",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0210",
+    "ru": "шоколад",
+    "it": "cioccolata",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0211",
+    "ru": "завтрак",
+    "it": "colazione",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0212",
+    "ru": "нож",
+    "it": "coltello",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0213",
+    "ru": "пирог",
+    "it": "crostata",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0214",
+    "ru": "ложка",
+    "it": "cucchiaio",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0215",
+    "ru": "пирожное",
+    "it": "dessert",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0216",
+    "ru": "счёт",
+    "it": "fattura",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0217",
+    "ru": "вилка",
+    "it": "forchetta",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0218",
+    "ru": "сыр",
+    "it": "formaggio",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0219",
+    "ru": "фрукты",
+    "it": "frutti",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0220",
+    "ru": "курица",
+    "it": "gallina",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0221",
+    "ru": "мороженое",
+    "it": "gelato",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0222",
+    "ru": "салат",
+    "it": "insalata",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0223",
+    "ru": "кефир",
+    "it": "kefir",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0224",
+    "ru": "молоко",
+    "it": "latte",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0225",
+    "ru": "лимон",
+    "it": "limone",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0226",
+    "ru": "свинина",
+    "it": "maiale",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0227",
+    "ru": "говядина",
+    "it": "manzo",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0228",
+    "ru": "яблоко",
+    "it": "mela",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0229",
+    "ru": "столавая",
+    "it": "mensa",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0230",
+    "ru": "хлеб",
+    "it": "pane",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0231",
+    "ru": "булочка",
+    "it": "panino",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0232",
+    "ru": "пирожок",
+    "it": "pasticcino",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0233",
+    "ru": "картошка",
+    "it": "patate",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0234",
+    "ru": "банка",
+    "it": "pentola",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0235",
+    "ru": "рыба",
+    "it": "pesce",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0236",
+    "ru": "тапелка",
+    "it": "piatto",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0237",
+    "ru": "пицца",
+    "it": "pizza",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0238",
+    "ru": "котлета",
+    "it": "polpetta",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0239",
+    "ru": "помидор",
+    "it": "pomodoro",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0240",
+    "ru": "каша",
+    "it": "porridge",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0241",
+    "ru": "блюдо",
+    "it": "portata",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0242",
+    "ru": "обед",
+    "it": "pranzo",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0243",
+    "ru": "рис",
+    "it": "riso",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0244",
+    "ru": "ресторан",
+    "it": "ristorante",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0245",
+    "ru": "соль",
+    "it": "sale",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0246",
+    "ru": "соус",
+    "it": "salsa",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0247",
+    "ru": "колбаса",
+    "it": "salsiccia",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0248",
+    "ru": "бутерброд",
+    "it": "sandwich",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0249",
+    "ru": "коробка",
+    "it": "scatola",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0250",
+    "ru": "батон",
+    "it": "sfiltatino",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0251",
+    "ru": "щи",
+    "it": "shchi",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0252",
+    "ru": "шашлык",
+    "it": "spiedini",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0253",
+    "ru": "закуска",
+    "it": "spuntino",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0254",
+    "ru": "сок",
+    "it": "succo",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0255",
+    "ru": "чашка",
+    "it": "tazza",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0256",
+    "ru": "чайник",
+    "it": "teiera",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0257",
+    "ru": "чай",
+    "it": "the",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0258",
+    "ru": "торт",
+    "it": "torta",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0259",
+    "ru": "яйцо",
+    "it": "uovo",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0260",
+    "ru": "виноград",
+    "it": "uva",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0261",
+    "ru": "овощи",
+    "it": "verdure",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0262",
+    "ru": "вино",
+    "it": "vino",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0263",
+    "ru": "водка",
+    "it": "vodka",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0264",
+    "ru": "сахар",
+    "it": "zucchero",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0265",
+    "ru": "суп",
+    "it": "zuppa",
+    "type": "sostantivo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0266",
+    "ru": "добавлять",
+    "it": "aggiungere",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0267",
+    "ru": "добавить",
+    "it": "aggiungere",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0268",
+    "ru": "кормить",
+    "it": "alimentare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0269",
+    "ru": "покормить",
+    "it": "alimentare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0270",
+    "ru": "открывать",
+    "it": "aprire",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0271",
+    "ru": "открыть",
+    "it": "aprire",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0272",
+    "ru": "пить",
+    "it": "bere",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0273",
+    "ru": "выпить",
+    "it": "bere",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0274",
+    "ru": "варить",
+    "it": "bollire",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0275",
+    "ru": "сварить",
+    "it": "bollire",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0276",
+    "ru": "ужинать",
+    "it": "cenare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0277",
+    "ru": "поужинать",
+    "it": "cenare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0278",
+    "ru": "завтракать",
+    "it": "colazionare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0279",
+    "ru": "позавтракать",
+    "it": "colazionare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0280",
+    "ru": "покупать",
+    "it": "comprare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0281",
+    "ru": "купить",
+    "it": "comprare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0282",
+    "ru": "жарить",
+    "it": "friggere",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0283",
+    "ru": "пожарить",
+    "it": "friggere",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0284",
+    "ru": "есть",
+    "it": "mangiare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0285",
+    "ru": "съесть",
+    "it": "mangiare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0286",
+    "ru": "класть",
+    "it": "mettere",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0287",
+    "ru": "положить",
+    "it": "mettere",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0288",
+    "ru": "заказывать",
+    "it": "ordinare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0289",
+    "ru": "заказать",
+    "it": "ordinare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0290",
+    "ru": "обедать",
+    "it": "pranzare",
+    "type": "verbo",
+    "categories": [
+      "cibo",
+      "imperfettivo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0291",
+    "ru": "пообедать",
+    "it": "pranzare",
+    "type": "verbo",
+    "categories": [
+      "cibo",
+      "perfettivo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0292",
+    "ru": "готовить",
+    "it": "preparare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0293",
+    "ru": "приготовить",
+    "it": "preparare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0294",
+    "ru": "пробовать",
+    "it": "provare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0295",
+    "ru": "попробовать",
+    "it": "provare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0296",
+    "ru": "поесть",
+    "it": "smangiucchiare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0297",
+    "ru": "резать",
+    "it": "tagliare",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0298",
+    "ru": "продавать",
+    "it": "vendere",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0299",
+    "ru": "продать",
+    "it": "vendere",
+    "type": "verbo",
+    "categories": [
+      "cibo"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0300",
+    "ru": "взрослый",
+    "it": "adulto",
+    "type": "aggettivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0301",
+    "ru": "молодой",
+    "it": "giovane",
+    "type": "aggettivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "aggettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0302",
+    "ru": "детский",
+    "it": "infantile",
+    "type": "aggettivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0303",
+    "ru": "старший",
+    "it": "più vecchio",
+    "type": "aggettivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0304",
+    "ru": "старый",
+    "it": "vecchio",
+    "type": "aggettivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0305",
+    "ru": "юноша",
+    "it": "addolescente",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0306",
+    "ru": "юность",
+    "it": "addolescenza",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0307",
+    "ru": "лет",
+    "it": "anni",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0308",
+    "ru": "год",
+    "it": "anno",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0309",
+    "ru": "старик",
+    "it": "anziano",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0310",
+    "ru": "женщина",
+    "it": "donna",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0311",
+    "ru": "возраст",
+    "it": "età",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0312",
+    "ru": "день",
+    "it": "giorno",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0313",
+    "ru": "девушка",
+    "it": "giovane",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "s.f.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0314",
+    "ru": "молодость",
+    "it": "gioventù",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0315",
+    "ru": "молодёжь",
+    "it": "i giovani",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0316",
+    "ru": "детство",
+    "it": "infanzia",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0317",
+    "ru": "месяц",
+    "it": "mese",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0318",
+    "ru": "смерть",
+    "it": "morte",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0319",
+    "ru": "рождение",
+    "it": "nascita",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0320",
+    "ru": "человек",
+    "it": "persona",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0321",
+    "ru": "люди",
+    "it": "persone",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0322",
+    "ru": "девочка",
+    "it": "ragazza",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0323",
+    "ru": "мальчик",
+    "it": "ragazzo",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0324",
+    "ru": "мужчина",
+    "it": "uomo",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0325",
+    "ru": "старость",
+    "it": "vecchiaia",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0326",
+    "ru": "жизнь",
+    "it": "vita",
+    "type": "sostantivo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0327",
+    "ru": "расти",
+    "it": "crescere",
+    "type": "verbo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0328",
+    "ru": "вырасти",
+    "it": "crescere",
+    "type": "verbo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0329",
+    "ru": "умереть",
+    "it": "morire",
+    "type": "verbo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0330",
+    "ru": "родиться",
+    "it": "nascere",
+    "type": "verbo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0331",
+    "ru": "жить",
+    "it": "vivere",
+    "type": "verbo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0332",
+    "ru": "прожить",
+    "it": "vivere",
+    "type": "verbo",
+    "categories": [
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0333",
+    "ru": "способный",
+    "it": "capace",
+    "type": "aggettivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0334",
+    "ru": "опытный",
+    "it": "esperto",
+    "type": "aggettivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0335",
+    "ru": "умный",
+    "it": "intelligente",
+    "type": "aggettivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0336",
+    "ru": "интересный",
+    "it": "interessante",
+    "type": "aggettivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0337",
+    "ru": "великий",
+    "it": "magnifico",
+    "type": "aggettivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0338",
+    "ru": "оригинальный",
+    "it": "originale",
+    "type": "aggettivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0339",
+    "ru": "редкий",
+    "it": "raro",
+    "type": "aggettivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0340",
+    "ru": "серьёзный",
+    "it": "serio",
+    "type": "aggettivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0341",
+    "ru": "удивительный",
+    "it": "sorprendente",
+    "type": "aggettivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0342",
+    "ru": "глупый",
+    "it": "stupido",
+    "type": "aggettivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0343",
+    "ru": "талантливый",
+    "it": "talentuoso",
+    "type": "aggettivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0344",
+    "ru": "уникальный",
+    "it": "unico",
+    "type": "aggettivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0345",
+    "ru": "понятно",
+    "it": "chiaramente",
+    "type": "avverbio",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0346",
+    "ru": "желание",
+    "it": "desiderio",
+    "type": "sostantivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0347",
+    "ru": "опыт",
+    "it": "esperienza",
+    "type": "sostantivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0348",
+    "ru": "юмор",
+    "it": "humor",
+    "type": "sostantivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0349",
+    "ru": "интерес",
+    "it": "interesse",
+    "type": "sostantivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0350",
+    "ru": "мысль",
+    "it": "pensiero",
+    "type": "sostantivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0351",
+    "ru": "шутка",
+    "it": "scherzo",
+    "type": "sostantivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0352",
+    "ru": "мечта",
+    "it": "sogno",
+    "type": "sostantivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0353",
+    "ru": "воля",
+    "it": "volontà",
+    "type": "sostantivo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0354",
+    "ru": "понимать",
+    "it": "capire",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0355",
+    "ru": "понять",
+    "it": "capire",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0356",
+    "ru": "сравнивать",
+    "it": "comparare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0357",
+    "ru": "сравнить",
+    "it": "comparare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0358",
+    "ru": "забывать",
+    "it": "dimenticare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0359",
+    "ru": "забыть",
+    "it": "dimenticare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0360",
+    "ru": "сомневаться",
+    "it": "dubitare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0361",
+    "ru": "интересоваться",
+    "it": "interessarsi",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0362",
+    "ru": "стремиться",
+    "it": "ispirarsi",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0363",
+    "ru": "замечать",
+    "it": "notare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0364",
+    "ru": "заметить",
+    "it": "notare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0365",
+    "ru": "думать",
+    "it": "pensare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0366",
+    "ru": "подумать",
+    "it": "pensare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0367",
+    "ru": "мочь",
+    "it": "potere",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0368",
+    "ru": "смочь",
+    "it": "potere",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0369",
+    "ru": "вспоминать",
+    "it": "ricordare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "recall; imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0370",
+    "ru": "вспомнить",
+    "it": "ricordare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "recall; perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0371",
+    "ru": "шутить",
+    "it": "scherzare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0372",
+    "ru": "пошутить",
+    "it": "scherzare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0373",
+    "ru": "стараться",
+    "it": "sforzarsi",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0374",
+    "ru": "постараться",
+    "it": "sforzarsi",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0375",
+    "ru": "мечтать",
+    "it": "sognare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0376",
+    "ru": "надеяться",
+    "it": "sperare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0377",
+    "ru": "пытаться",
+    "it": "tentare",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0378",
+    "ru": "хотеть",
+    "it": "volere",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0379",
+    "ru": "захотеть",
+    "it": "volere",
+    "type": "verbo",
+    "categories": [
+      "interessi"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0380",
+    "ru": "академия",
+    "it": "accademia",
+    "type": "sostantivo",
+    "categories": [
+      "istruzione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0381",
+    "ru": "автор",
+    "it": "autore",
+    "type": "sostantivo",
+    "categories": [
+      "letteratura"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0382",
+    "ru": "август",
+    "it": "agosto",
+    "type": "sostantivo",
+    "categories": [
+      "mesi"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0383",
+    "ru": "американский",
+    "it": "americano",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0384",
+    "ru": "азиатский",
+    "it": "asiatico",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0385",
+    "ru": "высокий",
+    "it": "alto",
+    "type": "aggettivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0386",
+    "ru": "низкий",
+    "it": "basso",
+    "type": "aggettivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0387",
+    "ru": "красивый",
+    "it": "bello",
+    "type": "aggettivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0388",
+    "ru": "симпатичный",
+    "it": "carino",
+    "type": "aggettivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0389",
+    "ru": "милый",
+    "it": "dolce",
+    "type": "aggettivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "aspetto caratteriale",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0390",
+    "ru": "толстый",
+    "it": "grasso",
+    "type": "aggettivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0391",
+    "ru": "седые",
+    "it": "grigi",
+    "type": "aggettivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0392",
+    "ru": "худой",
+    "it": "magro",
+    "type": "aggettivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0393",
+    "ru": "полный",
+    "it": "pieno",
+    "type": "aggettivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0394",
+    "ru": "усы",
+    "it": "baffi",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0395",
+    "ru": "борода",
+    "it": "barba",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0396",
+    "ru": "рот",
+    "it": "bocca",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0397",
+    "ru": "волосы",
+    "it": "capelli",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0398",
+    "ru": "шея",
+    "it": "collo",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0399",
+    "ru": "тело",
+    "it": "corpo",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0400",
+    "ru": "сердце",
+    "it": "cuore",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0401",
+    "ru": "зуб",
+    "it": "dente",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0402",
+    "ru": "палец",
+    "it": "dito",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0403",
+    "ru": "лицо",
+    "it": "faccia",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0404",
+    "ru": "лоб",
+    "it": "fronte",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0405",
+    "ru": "нога",
+    "it": "gamba",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0406",
+    "ru": "горло",
+    "it": "gola",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0407",
+    "ru": "щека",
+    "it": "guancia",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0408",
+    "ru": "рука",
+    "it": "mano",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0409",
+    "ru": "нос",
+    "it": "naso",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0410",
+    "ru": "глаз",
+    "it": "occhio",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0411",
+    "ru": "ухо",
+    "it": "orecchio",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0412",
+    "ru": "живот",
+    "it": "pancia",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0413",
+    "ru": "грудь",
+    "it": "petto",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0414",
+    "ru": "спина",
+    "it": "schiena",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0415",
+    "ru": "плечо",
+    "it": "spalla",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0416",
+    "ru": "желудок",
+    "it": "stomaco",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0417",
+    "ru": "голова",
+    "it": "testa",
+    "type": "sostantivo",
+    "categories": [
+      "parti del corpo"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0418",
+    "ru": "больной",
+    "it": "malato",
+    "type": "aggettivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0419",
+    "ru": "болен",
+    "it": "malato",
+    "type": "aggettivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "f.b.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0420",
+    "ru": "бледный",
+    "it": "pallido",
+    "type": "aggettivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0421",
+    "ru": "здоровый",
+    "it": "sano",
+    "type": "aggettivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0422",
+    "ru": "здоров",
+    "it": "sano",
+    "type": "aggettivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "f.b.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0423",
+    "ru": "анализ",
+    "it": "analisi",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0424",
+    "ru": "зубной врач",
+    "it": "dentista",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0425",
+    "ru": "аптека",
+    "it": "farmacia",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0426",
+    "ru": "лекарство",
+    "it": "farmaco",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0427",
+    "ru": "грипп",
+    "it": "influenza",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0428",
+    "ru": "укол",
+    "it": "iniezione",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0429",
+    "ru": "медицина",
+    "it": "medicina",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0430",
+    "ru": "операция",
+    "it": "operazione",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0431",
+    "ru": "больница",
+    "it": "ospedale",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0432",
+    "ru": "таблетка",
+    "it": "pillola",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0433",
+    "ru": "поликлиника",
+    "it": "policlinico",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0434",
+    "ru": "насморк",
+    "it": "raffreddore",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0435",
+    "ru": "рецепт",
+    "it": "ricetta",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0436",
+    "ru": "температура",
+    "it": "temperatura",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0437",
+    "ru": "ангина",
+    "it": "tonsillite",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0438",
+    "ru": "кашель",
+    "it": "tosse",
+    "type": "sostantivo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0439",
+    "ru": "болеть",
+    "it": "aver male",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0440",
+    "ru": "заболеть",
+    "it": "aver male",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0441",
+    "ru": "лечить",
+    "it": "curare",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0442",
+    "ru": "вылечить",
+    "it": "curare",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0443",
+    "ru": "вызывать",
+    "it": "provocare",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0444",
+    "ru": "вызвать",
+    "it": "provocare",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0445",
+    "ru": "простудиться",
+    "it": "raffreddarsi",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0446",
+    "ru": "выздоравливать",
+    "it": "rinsanare",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0447",
+    "ru": "выздороветь",
+    "it": "rinsanare",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0448",
+    "ru": "ломать",
+    "it": "rompere",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0449",
+    "ru": "сломать",
+    "it": "rompere",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0450",
+    "ru": "чувствовать себя",
+    "it": "sentirsi",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0451",
+    "ru": "навещать",
+    "it": "visitare",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0452",
+    "ru": "навестить",
+    "it": "visitare",
+    "type": "verbo",
+    "categories": [
+      "salute"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0453",
+    "ru": "автобусный",
+    "it": "dell'autobus",
+    "type": "aggettivo",
+    "categories": [
+      "trasporto"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0454",
+    "ru": "автобус",
+    "it": "autobus",
+    "type": "sostantivo",
+    "categories": [
+      "trasporto"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0455",
+    "ru": "автомобиль",
+    "it": "automobile",
+    "type": "sostantivo",
+    "categories": [
+      "trasporto"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0456",
+    "ru": "обычный",
+    "it": "abituale",
+    "type": "aggettivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0457",
+    "ru": "хороший",
+    "it": "buono",
+    "type": "aggettivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0458",
+    "ru": "плохой",
+    "it": "cattivo",
+    "type": "aggettivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0459",
+    "ru": "доволен",
+    "it": "contento",
+    "type": "aggettivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "f.b.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0460",
+    "ru": "согласен",
+    "it": "d'accordo",
+    "type": "aggettivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0461",
+    "ru": "лучший",
+    "it": "migliore",
+    "type": "aggettivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0462",
+    "ru": "обыкновенный",
+    "it": "ordinario",
+    "type": "aggettivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0463",
+    "ru": "прекрасный",
+    "it": "perfetto",
+    "type": "aggettivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0464",
+    "ru": "необыкновенный",
+    "it": "straordinario",
+    "type": "aggettivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0465",
+    "ru": "ужасный",
+    "it": "terribile",
+    "type": "aggettivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0466",
+    "ru": "прав",
+    "it": "vero",
+    "type": "aggettivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "f.b.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0467",
+    "ru": "лучше",
+    "it": "migliore",
+    "type": "avverbio",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "avv.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0468",
+    "ru": "хуже",
+    "it": "peggiore",
+    "type": "avverbio",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0469",
+    "ru": "отлично",
+    "it": "perfettamente",
+    "type": "avverbio",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0470",
+    "ru": "отношение",
+    "it": "atteggiamento",
+    "type": "sostantivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0471",
+    "ru": "молодец",
+    "it": "bravo!",
+    "type": "sostantivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0472",
+    "ru": "мастер",
+    "it": "esperto",
+    "type": "sostantivo",
+    "categories": [
+      "valutazione",
+      "professioni"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0473",
+    "ru": "мнение",
+    "it": "opinione",
+    "type": "sostantivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0474",
+    "ru": "точка зрения",
+    "it": "punto di vista",
+    "type": "sostantivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0475",
+    "ru": "оценка",
+    "it": "valutazione",
+    "type": "sostantivo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0476",
+    "ru": "ценить",
+    "it": "apprezzare",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0477",
+    "ru": "иметь значение",
+    "it": "avere importanza",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0478",
+    "ru": "хвалить",
+    "it": "complimentarsi",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0479",
+    "ru": "считать",
+    "it": "contare",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0480",
+    "ru": "критиковать",
+    "it": "criticare",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0481",
+    "ru": "похвалить",
+    "it": "elogiare",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0482",
+    "ru": "выражать",
+    "it": "esprimere",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0483",
+    "ru": "выразить",
+    "it": "esprimere",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0484",
+    "ru": "соглашаться",
+    "it": "essere d'accordo",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0485",
+    "ru": "согласиться",
+    "it": "essere d'accordo",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0486",
+    "ru": "уважать",
+    "it": "rispettare",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0487",
+    "ru": "ругать",
+    "it": "sgridare",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0488",
+    "ru": "относиться",
+    "it": "trattare",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0489",
+    "ru": "оценивать",
+    "it": "valutare",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0490",
+    "ru": "оценить",
+    "it": "valutare",
+    "type": "verbo",
+    "categories": [
+      "valutazione"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0491",
+    "ru": "активный",
+    "it": "attivo",
+    "type": "aggettivo",
+    "categories": [
+      "carattere ed emozioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0492",
+    "ru": "абсолютно",
+    "it": "assolutamete",
+    "type": "avverbio",
+    "categories": [
+      "varie"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0493",
+    "ru": "альбом",
+    "it": "album",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0494",
+    "ru": "администрация",
+    "it": "amministrazione",
+    "type": "sostantivo",
+    "categories": [
+      "varie"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0495",
+    "ru": "адрес",
+    "it": "indirizzo",
+    "type": "sostantivo",
+    "categories": [
+      "casa"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0496",
+    "ru": "автомат",
+    "it": "macchinetta",
+    "type": "sostantivo",
+    "categories": [
+      "varie"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0497",
+    "ru": "анкета",
+    "it": "questionario",
+    "type": "sostantivo",
+    "categories": [
+      "varie"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0498",
+    "ru": "анализировать",
+    "it": "analizzare",
+    "type": "verbo",
+    "categories": [
+      "varie"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0499",
+    "ru": "проанализировать",
+    "it": "analizzare",
+    "type": "verbo",
+    "categories": [
+      "varie"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0500",
+    "ru": "модный",
+    "it": "alla moda",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0501",
+    "ru": "светлый",
+    "it": "chiaro",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0502",
+    "ru": "современный",
+    "it": "contemporaneo",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0503",
+    "ru": "короткий",
+    "it": "corto",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0504",
+    "ru": "летний",
+    "it": "estivo",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0505",
+    "ru": "лёгкий",
+    "it": "facile",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0506",
+    "ru": "зимний",
+    "it": "invernale",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0507",
+    "ru": "широкий",
+    "it": "largo",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0508",
+    "ru": "длинный",
+    "it": "lungo",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0509",
+    "ru": "велик",
+    "it": "magnifico",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "f.b.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0510",
+    "ru": "тяжёлый",
+    "it": "pesante",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0511",
+    "ru": "мал",
+    "it": "piccolo",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "f.b.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0512",
+    "ru": "тёмный",
+    "it": "scuro",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0513",
+    "ru": "спортивный",
+    "it": "sportivo",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0514",
+    "ru": "узкий",
+    "it": "stretto",
+    "type": "aggettivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0515",
+    "ru": "костюм",
+    "it": "abito",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0516",
+    "ru": "шляпа",
+    "it": "berretto",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0517",
+    "ru": "обувь",
+    "it": "calzatura",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0518",
+    "ru": "носки",
+    "it": "calze",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0519",
+    "ru": "рубашка",
+    "it": "camicia",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0520",
+    "ru": "шапка",
+    "it": "cappello",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0521",
+    "ru": "пальто",
+    "it": "cappotto",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0522",
+    "ru": "галстук",
+    "it": "cravatta",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0523",
+    "ru": "платок",
+    "it": "fazzoletto",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0524",
+    "ru": "куртка",
+    "it": "giacca",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0525",
+    "ru": "юбка",
+    "it": "gonna",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0526",
+    "ru": "перчатки",
+    "it": "guanti",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0527",
+    "ru": "джинсы",
+    "it": "jenas",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0528",
+    "ru": "свитер",
+    "it": "maglione",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0529",
+    "ru": "плащ",
+    "it": "mantello",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0530",
+    "ru": "брюки",
+    "it": "pantaloni",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0531",
+    "ru": "туфли",
+    "it": "scarpe",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0532",
+    "ru": "кроссовки",
+    "it": "scarpe sportive",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0533",
+    "ru": "ботинки",
+    "it": "scarponcini",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0534",
+    "ru": "шарф",
+    "it": "sciarpa",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0535",
+    "ru": "сапоги",
+    "it": "stivali",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0536",
+    "ru": "одежда",
+    "it": "vestiti",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0537",
+    "ru": "платье",
+    "it": "vestito",
+    "type": "sostantivo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0538",
+    "ru": "шить",
+    "it": "cucire",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0539",
+    "ru": "сшить",
+    "it": "cucire",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0540",
+    "ru": "надевать",
+    "it": "indossare",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0541",
+    "ru": "надеть",
+    "it": "indossare",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0542",
+    "ru": "носить",
+    "it": "portare",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0543",
+    "ru": "мерить",
+    "it": "provare un vestito",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0544",
+    "ru": "померить",
+    "it": "provare un vestito",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0545",
+    "ru": "дарить",
+    "it": "regalare",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0546",
+    "ru": "подарить",
+    "it": "regalare",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0547",
+    "ru": "выбирать",
+    "it": "scegliere",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0548",
+    "ru": "выбрать",
+    "it": "scegliere",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0549",
+    "ru": "одевать",
+    "it": "vestire",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0550",
+    "ru": "одеть",
+    "it": "vestire",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0551",
+    "ru": "одеваться",
+    "it": "vestirsi",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0552",
+    "ru": "одеться",
+    "it": "vestirsi",
+    "type": "verbo",
+    "categories": [
+      "vestiti"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0553",
+    "ru": "ребёнок",
+    "it": "bambino",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia",
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0554",
+    "ru": "семья",
+    "it": "famiglia",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0555",
+    "ru": "семейный",
+    "it": "familiare",
+    "type": "aggettivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0556",
+    "ru": "невеста",
+    "it": "fidanzata",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0557",
+    "ru": "жених",
+    "it": "fidanzato",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0558",
+    "ru": "дети",
+    "it": "figli",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia",
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0559",
+    "ru": "дочь",
+    "it": "figlia",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0560",
+    "ru": "сын",
+    "it": "figlio",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0561",
+    "ru": "брат",
+    "it": "fratello",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0562",
+    "ru": "родители",
+    "it": "genitori",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0563",
+    "ru": "мать",
+    "it": "madre",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0564",
+    "ru": "мама",
+    "it": "mamma",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0565",
+    "ru": "муж",
+    "it": "marito",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0566",
+    "ru": "жена",
+    "it": "moglie",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0567",
+    "ru": "родной",
+    "it": "netivo",
+    "type": "aggettivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0568",
+    "ru": "внук",
+    "it": "nipote",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0569",
+    "ru": "внучка",
+    "it": "nipote",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "s.f.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0570",
+    "ru": "бабушка",
+    "it": "nonna",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0571",
+    "ru": "дедушка",
+    "it": "nonno",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0572",
+    "ru": "отец",
+    "it": "padre",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0573",
+    "ru": "папа",
+    "it": "papà",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0574",
+    "ru": "родственник",
+    "it": "parente",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0575",
+    "ru": "младший",
+    "it": "più giovane",
+    "type": "aggettivo",
+    "categories": [
+      "famiglia",
+      "fasi della vita"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0576",
+    "ru": "сестра",
+    "it": "sorella",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0577",
+    "ru": "выйти замуж",
+    "it": "sposare",
+    "type": "verbo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "per donna",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0578",
+    "ru": "жениться",
+    "it": "sposare",
+    "type": "verbo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0579",
+    "ru": "замужем",
+    "it": "sposata",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0580",
+    "ru": "женат",
+    "it": "sposato",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0581",
+    "ru": "тётя",
+    "it": "zia",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0582",
+    "ru": "дядя",
+    "it": "zio",
+    "type": "sostantivo",
+    "categories": [
+      "famiglia"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0583",
+    "ru": "дело",
+    "it": "affare",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0584",
+    "ru": "фермер",
+    "it": "agricoltore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0585",
+    "ru": "ученица",
+    "it": "alunna",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0586",
+    "ru": "ученик",
+    "it": "alunno",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0587",
+    "ru": "архитектор",
+    "it": "architetto",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0588",
+    "ru": "артист",
+    "it": "artista",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "generico; s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0589",
+    "ru": "артистка",
+    "it": "artista",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "generico; s.f.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0590",
+    "ru": "художник",
+    "it": "artista",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0591",
+    "ru": "лётчик",
+    "it": "aviatore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0592",
+    "ru": "библиотекарь",
+    "it": "bibliotecario",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0593",
+    "ru": "биологический",
+    "it": "biologico",
+    "type": "aggettivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0594",
+    "ru": "биолог",
+    "it": "biologo",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0595",
+    "ru": "бизнесмен",
+    "it": "businessman",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0596",
+    "ru": "футболист",
+    "it": "calciatore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0597",
+    "ru": "официант",
+    "it": "cameriere",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0598",
+    "ru": "чемпион",
+    "it": "campione",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0599",
+    "ru": "певец",
+    "it": "cantante",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0600",
+    "ru": "певица",
+    "it": "cantante",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "s.f.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0601",
+    "ru": "домохозяйка",
+    "it": "casalinga",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0602",
+    "ru": "кассир",
+    "it": "cassiere",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0603",
+    "ru": "химик",
+    "it": "chimico",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0604",
+    "ru": "химический",
+    "it": "chimico",
+    "type": "aggettivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0605",
+    "ru": "хирург",
+    "it": "chirurgo",
+    "type": "sostantivo",
+    "categories": [
+      "professioni",
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0606",
+    "ru": "композитор",
+    "it": "compositore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0607",
+    "ru": "крестьянин",
+    "it": "contadino",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0608",
+    "ru": "космонавт",
+    "it": "cosmonauta",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0609",
+    "ru": "строитель",
+    "it": "costruttore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0610",
+    "ru": "создавать",
+    "it": "creare",
+    "type": "verbo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0611",
+    "ru": "создать",
+    "it": "creare",
+    "type": "verbo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0612",
+    "ru": "декан",
+    "it": "decano",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0613",
+    "ru": "экономический",
+    "it": "di economia",
+    "type": "aggettivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0614",
+    "ru": "дипломат",
+    "it": "diplomatico",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0615",
+    "ru": "директор",
+    "it": "direttore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0616",
+    "ru": "дирижёр",
+    "it": "direttore d'orchestra",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0617",
+    "ru": "руководитель",
+    "it": "dirigente",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0618",
+    "ru": "руководить",
+    "it": "dirigere",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0619",
+    "ru": "аспирантка",
+    "it": "dottoranda",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0620",
+    "ru": "аспирант",
+    "it": "dottorando",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0621",
+    "ru": "доктор",
+    "it": "dottore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni",
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0622",
+    "ru": "экономист",
+    "it": "economista",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0623",
+    "ru": "учёный",
+    "it": "educativo",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0624",
+    "ru": "делать",
+    "it": "fare",
+    "type": "verbo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0625",
+    "ru": "сделать",
+    "it": "fare",
+    "type": "verbo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0626",
+    "ru": "трудиться",
+    "it": "faticare",
+    "type": "verbo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0627",
+    "ru": "филологический",
+    "it": "filologico",
+    "type": "aggettivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0628",
+    "ru": "филолог",
+    "it": "filologo",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0629",
+    "ru": "философский",
+    "it": "filosofico",
+    "type": "aggettivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0630",
+    "ru": "философ",
+    "it": "filosofo",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0631",
+    "ru": "физик",
+    "it": "fisico",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0632",
+    "ru": "физический",
+    "it": "fisico",
+    "type": "aggettivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0633",
+    "ru": "генерал",
+    "it": "generale",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0634",
+    "ru": "географический",
+    "it": "geografico",
+    "type": "aggettivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0635",
+    "ru": "географ",
+    "it": "geografo",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0636",
+    "ru": "геологический",
+    "it": "geologico",
+    "type": "aggettivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0637",
+    "ru": "геолог",
+    "it": "geologo",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0638",
+    "ru": "хоккеист",
+    "it": "giocatore di hockey",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0639",
+    "ru": "журналист",
+    "it": "giornalista",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0640",
+    "ru": "юридический",
+    "it": "giuridico",
+    "type": "aggettivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0641",
+    "ru": "юрист",
+    "it": "giurista",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0642",
+    "ru": "экскурсовод",
+    "it": "guida",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0643",
+    "ru": "шофёр",
+    "it": "guidatore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0644",
+    "ru": "медсестра",
+    "it": "infermiera",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0645",
+    "ru": "инженер",
+    "it": "ingegnere",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0646",
+    "ru": "преподаватель",
+    "it": "insegnante",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0647",
+    "ru": "преподавательница",
+    "it": "insegnante",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "s.f.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0648",
+    "ru": "работать",
+    "it": "lavorare",
+    "type": "verbo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0649",
+    "ru": "рабочий",
+    "it": "lavoratore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0650",
+    "ru": "работа",
+    "it": "lavoro",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0651",
+    "ru": "труд",
+    "it": "sforzo",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0652",
+    "ru": "читатель",
+    "it": "lettore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0653",
+    "ru": "менеджер",
+    "it": "manager",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0654",
+    "ru": "моряк",
+    "it": "marinaio",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0655",
+    "ru": "математик",
+    "it": "matematico",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0656",
+    "ru": "математический",
+    "it": "matematico",
+    "type": "aggettivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0657",
+    "ru": "медицинский",
+    "it": "medicale",
+    "type": "aggettivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0658",
+    "ru": "врач",
+    "it": "medico",
+    "type": "sostantivo",
+    "categories": [
+      "professioni",
+      "salute"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0659",
+    "ru": "министр",
+    "it": "ministro",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0660",
+    "ru": "музыкант",
+    "it": "musicista",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0661",
+    "ru": "заниматься",
+    "it": "occuparsi",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0662",
+    "ru": "организовать",
+    "it": "organizzare",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0663",
+    "ru": "баскетболист",
+    "it": "pallavolista",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0664",
+    "ru": "пенсионерка",
+    "it": "pensionata",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0665",
+    "ru": "пенсионер",
+    "it": "pensionato",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0666",
+    "ru": "рыбак",
+    "it": "pescatore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0667",
+    "ru": "поэт",
+    "it": "poeta",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0668",
+    "ru": "милиционер",
+    "it": "poliziotto",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0669",
+    "ru": "производить",
+    "it": "produrre",
+    "type": "verbo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0670",
+    "ru": "профессия",
+    "it": "professione",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0671",
+    "ru": "профессор",
+    "it": "professore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0672",
+    "ru": "хозяйка",
+    "it": "proprietaria",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0673",
+    "ru": "хозяин",
+    "it": "proprietario",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0674",
+    "ru": "психолог",
+    "it": "psicologo",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0675",
+    "ru": "режиссёр",
+    "it": "regista",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0676",
+    "ru": "ректор",
+    "it": "rettore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0677",
+    "ru": "получать",
+    "it": "ricevere",
+    "type": "verbo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "imperfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0678",
+    "ru": "получить",
+    "it": "ricevere",
+    "type": "verbo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "perfettivo",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0679",
+    "ru": "шахматист",
+    "it": "scacchista",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0680",
+    "ru": "школьница",
+    "it": "scolara",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0681",
+    "ru": "школьник",
+    "it": "scolaro",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0682",
+    "ru": "писатель",
+    "it": "scrittore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0683",
+    "ru": "секретарь",
+    "it": "segretario",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0684",
+    "ru": "солдат",
+    "it": "soldato",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0685",
+    "ru": "специалист",
+    "it": "specialista",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0686",
+    "ru": "специальность",
+    "it": "specitlità",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0687",
+    "ru": "спортсменка",
+    "it": "sportiva",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0688",
+    "ru": "спортсмен",
+    "it": "sportivo",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0689",
+    "ru": "историк",
+    "it": "storico",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0690",
+    "ru": "исторический",
+    "it": "storico",
+    "type": "aggettivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0691",
+    "ru": "студент",
+    "it": "studente",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0692",
+    "ru": "студентка",
+    "it": "studentessa",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0693",
+    "ru": "переводчик",
+    "it": "traduttore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0694",
+    "ru": "тренер",
+    "it": "trainer",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0695",
+    "ru": "турист",
+    "it": "turista",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0696",
+    "ru": "офицер",
+    "it": "ufficiale",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0697",
+    "ru": "продавец",
+    "it": "venditore",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0698",
+    "ru": "продавщица",
+    "it": "venditrice",
+    "type": "sostantivo",
+    "categories": [
+      "professioni"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0699",
+    "ru": "житель",
+    "it": "abitante",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0700",
+    "ru": "посольство",
+    "it": "ambasciata",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0701",
+    "ru": "посол",
+    "it": "ambasciatore",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0702",
+    "ru": "американка",
+    "it": "americana",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0703",
+    "ru": "американцы",
+    "it": "americani",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0704",
+    "ru": "американец",
+    "it": "americano",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0705",
+    "ru": "английский",
+    "it": "inglese",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0706",
+    "ru": "подруга",
+    "it": "amica",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0707",
+    "ru": "друг",
+    "it": "amico",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0708",
+    "ru": "власть",
+    "it": "autorità",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0709",
+    "ru": "флаг",
+    "it": "bandiera",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0710",
+    "ru": "китаец",
+    "it": "cinese",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0711",
+    "ru": "китайский",
+    "it": "cinese",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0712",
+    "ru": "китаянка",
+    "it": "cinese",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.f.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0713",
+    "ru": "китайцы",
+    "it": "cinesi",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0714",
+    "ru": "гражданство",
+    "it": "cittadinanza",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0715",
+    "ru": "гражданин",
+    "it": "cittadino",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0716",
+    "ru": "коллега",
+    "it": "collega",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0717",
+    "ru": "товарищ",
+    "it": "compagno",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0718",
+    "ru": "граница",
+    "it": "confine",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0719",
+    "ru": "знакомый",
+    "it": "conosciuto",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0720",
+    "ru": "депутат",
+    "it": "deputato",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0721",
+    "ru": "француженка",
+    "it": "francese",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.f.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0722",
+    "ru": "француз",
+    "it": "francese",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0723",
+    "ru": "французский",
+    "it": "francese",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0724",
+    "ru": "французы",
+    "it": "francesi",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "p.m",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0725",
+    "ru": "правительство",
+    "it": "governo",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0726",
+    "ru": "англичанин",
+    "it": "inglese",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0727",
+    "ru": "англичанка",
+    "it": "inglese",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.f.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0728",
+    "ru": "англичане",
+    "it": "inglesi",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0729",
+    "ru": "международный",
+    "it": "internazionale",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0730",
+    "ru": "закон",
+    "it": "legge",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0731",
+    "ru": "москвич",
+    "it": "moscovita",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0732",
+    "ru": "москвичка",
+    "it": "moscovita",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.f.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0733",
+    "ru": "москвичи",
+    "it": "moscoviti",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0734",
+    "ru": "национальный",
+    "it": "nazionale",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0735",
+    "ru": "национальность",
+    "it": "nazionalità",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0736",
+    "ru": "гость",
+    "it": "ospite",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0737",
+    "ru": "парламент",
+    "it": "parlamento",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0738",
+    "ru": "партия",
+    "it": "partito",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0739",
+    "ru": "родина",
+    "it": "patria",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0740",
+    "ru": "политика",
+    "it": "politica",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0741",
+    "ru": "политический",
+    "it": "politico",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0742",
+    "ru": "народный",
+    "it": "popolare",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0743",
+    "ru": "население",
+    "it": "popolazione",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0744",
+    "ru": "народ",
+    "it": "popolo",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0745",
+    "ru": "президент",
+    "it": "presidente",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0746",
+    "ru": "республика",
+    "it": "repubblica",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0747",
+    "ru": "российский",
+    "it": "russo",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "stato",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0748",
+    "ru": "русский",
+    "it": "russo",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0749",
+    "ru": "испанцы",
+    "it": "spagnoli",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0750",
+    "ru": "испанец",
+    "it": "spagnolo",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0751",
+    "ru": "испанка",
+    "it": "spagnolo",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.f.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0752",
+    "ru": "испанский",
+    "it": "spagnolo",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0753",
+    "ru": "государственный",
+    "it": "statale",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0754",
+    "ru": "государство",
+    "it": "governo",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0755",
+    "ru": "страна",
+    "it": "stato",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0756",
+    "ru": "иностранцы",
+    "it": "stranieri",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0757",
+    "ru": "иностранец",
+    "it": "straniero",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0758",
+    "ru": "иностранка",
+    "it": "straniero",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.f.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0759",
+    "ru": "иностранный",
+    "it": "straniero",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0760",
+    "ru": "немцы",
+    "it": "tedeschi",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "p.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0761",
+    "ru": "немец",
+    "it": "tedesco",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.m.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0762",
+    "ru": "немецкий",
+    "it": "tedesco",
+    "type": "aggettivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "agg.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0763",
+    "ru": "немка",
+    "it": "tedesco",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "s.f.",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0764",
+    "ru": "территория",
+    "it": "territorio",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0765",
+    "ru": "соседка",
+    "it": "vicina di casa",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0766",
+    "ru": "сосед",
+    "it": "vicino di casa",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
+    ],
+    "prompt": {
+      "it": "",
+      "ru": ""
+    },
+    "active": true
+  },
+  {
+    "id": "v0767",
+    "ru": "царь",
+    "it": "zar",
+    "type": "sostantivo",
+    "categories": [
+      "stati e potere"
     ],
     "prompt": {
       "it": "",
