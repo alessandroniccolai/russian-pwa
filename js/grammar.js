@@ -548,9 +548,23 @@ window.GrammarModule = (function() {
   }
 
   function normalizeAnswer(text) {
-    let value = String(text).trim().toLowerCase();
+    let value = String(text)
+      .trim()
+      .toLowerCase();
 
+    // Rimuove apostrofi e accenti separati usati talvolta nei libri.
+    value = value
+      .replace(/[’‘ʼʹ′´`]/g, "")
+      .replace(/[ˈˊˋ]/g, "");
+
+    // ё ed е equivalenti.
     value = value.split("ё").join("е");
+
+    // Rimuove accenti/diacritici Unicode combinanti.
+    // Esempio: молоко́ → молоко
+    value = value.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+    // Normalizza spazi multipli interni.
     value = value.replace(/\s+/g, " ");
 
     return value;

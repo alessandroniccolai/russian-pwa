@@ -562,9 +562,24 @@ function renderQuestion(item) {
   }
 
   function normalizeAnswer(text) {
-    let value = String(text).trim().toLowerCase();
+    let value = String(text)
+      .trim()
+      .toLowerCase();
 
+    // Normalizza apostrofi e accenti "visibili" usati talvolta nei libri.
+    value = value
+      .replace(/[’‘ʼʹ′´`]/g, "")
+      .replace(/[ˈˊˋ]/g, "");
+
+    // ё ed е equivalenti.
     value = value.split("ё").join("е");
+
+    // Rimuove diacritici Unicode combinanti:
+    // accento acuto, grave, macron, dieresi, ecc.
+    value = value.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+
+    // Rimuove spazi multipli interni.
+    value = value.replace(/\s+/g, " ");
 
     return value;
   }
