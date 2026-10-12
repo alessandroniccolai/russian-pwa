@@ -260,6 +260,8 @@ window.VocabModule = (function() {
 
     renderQuestion(currentItem);
 
+    document.getElementById("vocabExercise").classList.toggle("multiple-choice-active", currentMode === "multiple");
+
     if (currentMode === "multiple") {
       renderMultipleChoice(currentItem, available);
     } else {

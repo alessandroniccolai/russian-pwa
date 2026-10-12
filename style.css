@@ -9,3 +9,24 @@ button,input,select{font:inherit;min-height:44px;border-radius:var(--control-rad
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
 
 .grammar-config .exercise-heading{margin-top:4px}.grammar-config .available-count{order:0}.grammar-config .primary-action{order:0}
+
+/* RD-01 mobile: in scelta multipla non riservare spazio vuoto al feedback.
+   Lo spazio fisso resta nella risposta scritta secondo la specifica. */
+.multiple-choice-active #feedbackArea:empty{min-height:0;margin-top:0}
+.multiple-choice-active #feedbackArea:not(:empty){min-height:0;margin-top:8px}
+@media (max-width: 649px){
+  .multiple-choice-active .card{padding:10px}
+  .multiple-choice-active .question-main{margin:4px 0;font-size:23px;line-height:1.25}
+  .multiple-choice-active .question-prompt,.multiple-choice-active .meta{margin:3px 0 6px}
+  .multiple-choice-active .answers{gap:6px;padding-top:8px}
+  .multiple-choice-active .answer-button{min-height:44px;padding:8px 10px}
+  .multiple-choice-active .feedback{padding:9px 10px}
+  /* Solo dopo un errore: azione sempre raggiungibile senza scorrere. */
+  .multiple-choice-active #nextButton:not(.hidden){
+    position:fixed;z-index:20;
+    bottom:calc(8px + env(safe-area-inset-bottom, 0px));
+    left:12px;width:calc(100% - 24px);min-height:44px;
+    margin:0;box-shadow:0 3px 12px #202B3B25;
+  }
+}
+@media (min-width:650px){.multiple-choice-active #feedbackArea:empty{min-height:0;margin-top:0}}
