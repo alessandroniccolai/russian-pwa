@@ -11,38 +11,28 @@
 <body>
   <main class="app">
     <header class="app-header">
-      <h1>Studio russo</h1>
-      <button id="homeButton" class="secondary-button hidden">Home</button>
+      <h1 id="appTitle">Studio Russo</h1>
+      <button id="homeButton" class="icon-button hidden" aria-label="Torna alla Home" title="Torna alla Home"><span aria-hidden="true">←</span></button><button id="settingsButton" class="icon-button hidden" aria-label="Torna alla configurazione" title="Torna alla configurazione"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="2" fill="white"/><circle cx="15" cy="17" r="2" fill="white"/></svg></button>
     </header>
 
     <!-- HOME -->
     <section id="homeView" class="view">
-      <div class="card">
-        <h2>Scegli modalità</h2>
-
-        <div class="mode-grid">
-          <button id="openVocabButton" class="mode-card">
-            <span class="mode-title">Vocabolario</span>
-            <span class="mode-subtitle">Associazione italiano/russo</span>
-          </button>
-
-          <button id="openGrammarButton" class="mode-card">
-            <span class="mode-title">Declinazione / coniugazione</span>
-            <span class="mode-subtitle">Modulo grammatica</span>
-          </button>
-        </div>
+      <div class="mode-grid">
+        <button id="openVocabButton" class="mode-card"><span class="mode-icon" aria-hidden="true">▤</span><span class="mode-title">Vocabolario</span><span class="mode-chevron" aria-hidden="true">›</span></button>
+        <button id="openGrammarButton" class="mode-card"><span class="mode-icon" aria-hidden="true">Аа</span><span class="mode-title">Grammatica</span><span class="mode-chevron" aria-hidden="true">›</span></button>
       </div>
     </section>
 
     <!-- VOCABOLARIO -->
-    <section id="vocabView" class="view hidden">
-      <section class="panel">
-        <button id="toggleOptionsButton" class="secondary-button">
+    <section id="vocabView" class="view hidden module-view">
+      <div id="vocabConfig" class="config-stage">
+      <section class="panel config-panel">
+        <button id="toggleOptionsButton" class="secondary-button hidden" tabindex="-1">
           Nascondi opzioni
         </button>
 
         <div id="optionsPanel" class="options-panel">
-          <div class="control-group">
+          <div class="control-group control-direction">
             <label for="directionSelect">Direzione</label>
             <select id="directionSelect">
               <option value="it-ru">Italiano → Russo</option>
@@ -50,7 +40,7 @@
             </select>
           </div>
 
-          <div class="control-group">
+          <div class="control-group control-mode">
             <label for="modeSelect">Modalità</label>
             <select id="modeSelect">
               <option value="multiple">Scelta multipla</option>
@@ -58,24 +48,27 @@
             </select>
           </div>
 
-          <div class="control-group">
+          <h2 class="group-heading content-heading">Contenuti</h2><div class="control-group control-category">
             <label for="categorySelect">Categoria</label>
             <select id="categorySelect">
               <option value="all">Tutte</option>
             </select>
           </div>
 
-          <div class="control-group">
+          <div class="control-group control-type">
             <label for="typeSelect">Tipo</label>
             <select id="typeSelect">
               <option value="all">Tutti</option>
             </select>
           </div>
 
-          <button id="startButton">Inizia / aggiorna filtro</button>
+          <div id="vocabAvailable" class="available-count" aria-live="polite">Caricamento vocaboli…</div><h2 class="group-heading exercise-heading">Esercizio</h2><button id="startButton" class="primary-action">Inizia esercizio</button>
         </div>
       </section>
-
+      </div>
+      <div id="vocabExercise" class="exercise-stage hidden">
+      <div class="exercise-layout">
+      <div class="exercise-main">
       <section class="card">
         <div id="questionArea">
           <p class="placeholder">Caricamento vocaboli...</p>
@@ -88,6 +81,7 @@
         <button id="nextButton" class="hidden">Prossima parola</button>
       </section>
 
+      </div>
       <section class="stats">
         <h2>Statistiche sessione</h2>
 
@@ -110,21 +104,25 @@
           </div>
         </div>
 
-        <details class="wrong-list-panel">
+        <div class="word-stat-section"><h3>Parole</h3><div class="word-stats-grid"><div><strong id="vocabWordsStudied">0</strong><span>Studiate</span></div><div><strong id="vocabWordsCorrect">0</strong><span>Sempre corrette</span></div><div><strong id="vocabWordsWrong">0</strong><span>Con errori</span></div></div></div><details class="wrong-list-panel">
           <summary>Parole più sbagliate</summary>
           <ol id="wrongList"></ol>
         </details>
       </section>
+      </div>
+      </div>
     </section>
 
     <!-- GRAMMATICA -->
-    <section id="grammarView" class="view hidden">
-      <section class="panel">
-        <button id="grammarToggleOptionsButton" class="secondary-button">
+    <section id="grammarView" class="view hidden module-view">
+      <div id="grammarConfig" class="config-stage">
+      <section class="panel config-panel">
+        <button id="grammarToggleOptionsButton" class="secondary-button hidden" tabindex="-1">
           Nascondi opzioni
         </button>
 
-        <div id="grammarOptionsPanel" class="options-panel">
+        <div id="grammarOptionsPanel" class="options-panel grammar-config">
+          <h2 class="group-heading">Contenuti</h2>
           <div class="control-group">
             <label for="grammarTypeSelect">Tipo</label>
             <select id="grammarTypeSelect">
@@ -142,7 +140,7 @@
             </select>
           </div>
 
-          <div class="control-group">
+          <h2 class="group-heading exercise-heading">Esercizio</h2><div class="control-group">
             <label for="grammarDirectionSelect">Direzione</label>
             <select id="grammarDirectionSelect">
               <option value="base_to_form">Forma base → forma variata</option>
@@ -150,10 +148,13 @@
             </select>
           </div>
 
-          <button id="grammarStartButton">Inizia / aggiorna filtro</button>
+          <div id="grammarAvailable" class="available-count" aria-live="polite">Caricamento grammatica…</div><button id="grammarStartButton" class="primary-action">Inizia esercizio</button>
         </div>
       </section>
-
+      </div>
+      <div id="grammarExercise" class="exercise-stage hidden">
+      <div class="exercise-layout">
+      <div class="exercise-main">
       <section class="card">
         <div id="grammarQuestionArea">
           <p class="placeholder">Caricamento grammatica...</p>
@@ -166,6 +167,7 @@
         <button id="grammarNextButton" class="hidden">Prossima forma</button>
       </section>
 
+      </div>
       <section class="stats">
         <h2>Statistiche sessione</h2>
 
@@ -188,14 +190,18 @@
           </div>
         </div>
 
-        <details class="wrong-list-panel">
+        <div class="word-stat-section"><h3>Voci grammaticali</h3><div class="word-stats-grid"><div><strong id="grammarWordsStudied">0</strong><span>Studiate</span></div><div><strong id="grammarWordsCorrect">0</strong><span>Sempre corrette</span></div><div><strong id="grammarWordsWrong">0</strong><span>Con errori</span></div></div></div>        <details class="wrong-list-panel">
           <summary>Forme più sbagliate</summary>
           <ol id="grammarWrongList"></ol>
         </details>
       </section>
+      </div>
+      </div>
     </section>
+    <dialog id="exitDialog" class="exit-dialog" aria-labelledby="exitTitle"><h2 id="exitTitle">Terminare la sessione?</h2><p>Le statistiche della sessione corrente non saranno conservate.</p><div class="dialog-actions"><button id="cancelExit" class="secondary-button">Continua esercizio</button><button id="confirmExit">Termina sessione</button></div></dialog>
   </main>
 
+  <script src="js/shared.js"></script>
   <script src="js/vocab.js"></script>
   <script src="js/grammar.js"></script>
   <script src="js/app.js"></script>

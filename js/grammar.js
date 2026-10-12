@@ -4,6 +4,7 @@ window.GrammarModule = (function() {
   let initialized = false;
   let optionsOpen = true;
   let autoNextTimer = null;
+  let answered=false; let awaitingNext=false;
 
   const RECENT_LIMIT = 10;
   const AUTO_NEXT_DELAY = 1000;
@@ -39,16 +40,13 @@ window.GrammarModule = (function() {
     const toggleOptionsButton = document.getElementById("grammarToggleOptionsButton");
     const nextButton = document.getElementById("grammarNextButton");
 
-    startButton.addEventListener("click", function() {
-      updateSettingsFromControls();
-      closeOptions();
-      nextQuestion();
-    });
+
 
     toggleOptionsButton.addEventListener("click", function() {
       toggleOptions();
     });
 
+    ["grammarTypeSelect","grammarCategorySelect"].forEach(id=>document.getElementById(id).addEventListener("change",updateAvailable));
     nextButton.addEventListener("click", function() {
       nextQuestion();
     });
@@ -74,6 +72,7 @@ window.GrammarModule = (function() {
         populateFilters();
         renderStartMessage();
         updateStatsDisplay();
+        updateAvailable();
       })
       .catch(function(error) {
         const questionArea = document.getElementById("grammarQuestionArea");
@@ -130,6 +129,25 @@ window.GrammarModule = (function() {
       categorySelect.appendChild(option);
     });
   }
+
+
+  function updateAvailable(){
+    const count=grammarItems.filter(i=>(document.getElementById('grammarTypeSelect').value==='all'||i.type===document.getElementById('grammarTypeSelect').value)&&(document.getElementById('grammarCategorySelect').value==='all'||i.category===document.getElementById('grammarCategorySelect').value)&&getAvailableFormKeys(i).length>0).length;
+    document.getElementById('grammarAvailable').textContent='Voci disponibili: '+count;
+    document.getElementById('grammarStartButton').disabled=count===0;
+  }
+  function resetSession(){
+    clearAutoNextTimer();session.total=0;session.correct=0;session.wrong=0;session.recentIds=[];
+    initializeSessionStats();answered=false;awaitingNext=false;updateStatsDisplay();
+  }
+  function resetDefaults(){
+    document.getElementById('grammarTypeSelect').value='all';document.getElementById('grammarCategorySelect').value='all';
+    document.getElementById('grammarDirectionSelect').value='base_to_form';
+    resetSession();renderStartMessage();updateAvailable();
+    document.querySelectorAll('#grammarView details').forEach(d=>d.open=false);
+  }
+  function endSession(){resetSession();renderStartMessage();}
+  function advance(){if(awaitingNext)nextQuestion();}
 
   function renderStartMessage() {
     const questionArea = document.getElementById("grammarQuestionArea");
@@ -198,7 +216,7 @@ window.GrammarModule = (function() {
   }
 
   function nextQuestion() {
-    clearAutoNextTimer();
+    clearAutoNextTimer();awaitingNext=false;
     updateSettingsFromControls();
 
     const available = getFilteredItems();
@@ -351,14 +369,14 @@ window.GrammarModule = (function() {
     const input = document.getElementById("grammarWrittenInput");
     const checkButton = document.getElementById("grammarCheckButton");
 
-    input.focus();
+    if(window.matchMedia("(hover: hover) and (pointer: fine)").matches)input.focus();
 
     checkButton.addEventListener("click", function() {
       checkWrittenAnswer(input, checkButton);
     });
 
     input.addEventListener("keydown", function(event) {
-      if (event.key === "Enter") {
+      if (event.key === "Enter" && !event.repeat && !event.isComposing) {
         checkWrittenAnswer(input, checkButton);
       }
     });
@@ -366,7 +384,7 @@ window.GrammarModule = (function() {
 
   function checkWrittenAnswer(input, button) {
     const userAnswer = input.value;
-
+    if(input.disabled || !userAnswer.trim())return;
     const isCorrect =
       normalizeAnswer(userAnswer) === normalizeAnswer(currentExercise.answer);
 
@@ -377,6 +395,7 @@ window.GrammarModule = (function() {
   }
 
   function processAnswer(isCorrect) {
+    answered=true;awaitingNext=true;
     updateStats(currentExercise, isCorrect);
     updateRecentIds(currentExercise.id);
     updateStatsDisplay();
@@ -438,24 +457,19 @@ window.GrammarModule = (function() {
   }
 
   function updateStatsDisplay() {
-    const totalStat = document.getElementById("grammarTotalStat");
-    const correctStat = document.getElementById("grammarCorrectStat");
-    const wrongStat = document.getElementById("grammarWrongStat");
-    const accuracyStat = document.getElementById("grammarAccuracyStat");
-
-    totalStat.textContent = session.total;
-    correctStat.textContent = session.correct;
-    wrongStat.textContent = session.wrong;
-
-    const accuracy =
-      session.total === 0
-        ? 0
-        : Math.round((session.correct / session.total) * 100);
-
-    accuracyStat.textContent = accuracy + "%";
-
+    const visited=Object.values(session.statsById).filter(s=>s.seen>0);
+    document.getElementById('grammarWordsStudied').textContent=visited.length;
+    document.getElementById('grammarWordsCorrect').textContent=visited.filter(s=>s.wrong===0).length;
+    document.getElementById('grammarWordsWrong').textContent=visited.filter(s=>s.wrong>0).length;
+    window.StudyUtils.updateStats(session, {
+      total: document.getElementById("grammarTotalStat"),
+      correct: document.getElementById("grammarCorrectStat"),
+      wrong: document.getElementById("grammarWrongStat"),
+      accuracy: document.getElementById("grammarAccuracyStat")
+    });
     renderWrongList();
   }
+
 
   function renderWrongList() {
     const wrongList = document.getElementById("grammarWrongList");
@@ -547,28 +561,7 @@ window.GrammarModule = (function() {
     return labels[formKey] || formKey;
   }
 
-  function normalizeAnswer(text) {
-    let value = String(text)
-      .trim()
-      .toLowerCase();
-
-    // Rimuove apostrofi e accenti separati usati talvolta nei libri.
-    value = value
-      .replace(/[’‘ʼʹ′´`]/g, "")
-      .replace(/[ˈˊˋ]/g, "");
-
-    // ё ed е equivalenti.
-    value = value.split("ё").join("е");
-
-    // Rimuove accenti/diacritici Unicode combinanti.
-    // Esempio: молоко́ → молоко
-    value = value.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-
-    // Normalizza spazi multipli interni.
-    value = value.replace(/\s+/g, " ");
-
-    return value;
-  }
+  const normalizeAnswer = window.StudyUtils.normalizeAnswer;
 
   function randomChoice(array) {
     if (!array || array.length === 0) {
@@ -586,16 +579,14 @@ window.GrammarModule = (function() {
     }
   }
 
-  function escapeHtml(text) {
-    return String(text)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&#039;");
+  const escapeHtml = window.StudyUtils.escapeHtml;
+
+  function pause() {
+    clearAutoNextTimer();
   }
 
   return {
-    start: start
+    start:start, pause:pause, resetSession:resetSession,resetDefaults:resetDefaults,endSession:endSession,
+    hasAnswers:()=>answered,canAdvance:()=>awaitingNext,advance:advance,begin:nextQuestion
   };
 })();
